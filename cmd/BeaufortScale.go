@@ -5,7 +5,7 @@ import "strconv"
 type BeaufortScale struct {
 	Start float32
 	End   float32
-	Bft   int8
+	Bft   int
 }
 
 var SCALES = [...]BeaufortScale{
@@ -64,14 +64,18 @@ var SCALES = [...]BeaufortScale{
 	},
 }
 
-func MeterePerSecondToBeaufortScale(meterePerSecond float32) string {
+func MeterePerSecondToBeaufortScale(meterePerSecond float32) int {
 	for _, scale := range SCALES {
 		if isBetween(scale, meterePerSecond) {
-			return strconv.Itoa(int(scale.Bft)) + " bft"
+			return scale.Bft
 		}
 	}
 
-	return "Unknown value"
+	return -1
+}
+
+func DisplayBeaufort(beaufort int) string {
+	return strconv.Itoa(beaufort) + " bft"
 }
 
 func isBetween(scale BeaufortScale, number float32) bool {

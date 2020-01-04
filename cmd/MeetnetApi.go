@@ -131,6 +131,10 @@ func translate(translations []Translation, locale string) string {
 	return ""
 }
 
+func safeToKite(beaufort int) bool {
+	return beaufort < 7
+}
+
 func formatLocation(location Location, locale string) string {
 	return translate(location.Name, locale)
 }

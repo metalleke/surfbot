@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/go-telegram-bot-api/telegram-bot-api"
 	"log"
 	"os"
@@ -58,8 +59,16 @@ func main() {
 			msg.Text = "test"
 			//msg.Text = displayCurrentData(currentData(token))
 		case "safekite": {
-			data := currentDataForId(validateToken(token), []string{"BL7WVC"})
-			msg.Text = displayCurrentData(catalog, data) + " (" + MeterePerSecondToBeaufortScale(data["BL7WVC"].Value) + ")"
+			id := "BL7WVC"
+			data := currentDataForId(validateToken(token), []string{id})[id]
+			beaufort := MeterePerSecondToBeaufortScale(data.Value)
+			text := "Wind: " + fmt.Sprintf("%.2f", data.Value)  + "m/s (" + DisplayBeaufort(beaufort) + ")\n"
+			if safeToKite(beaufort) {
+				text += "It is safe to kite"
+			} else {
+				text += "It is not safe to kite"
+			}
+			msg.Text = text
 		}
 		case "cefas": {
 			current := getcurrent()
