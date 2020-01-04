@@ -19,40 +19,40 @@ type Token struct {
 	ExpiresIn   string `json:"expires_in"`
 	TokenType   string `json:"token_type"`
 	UserName    string
-	Password	string
+	Password    string
 }
 
 func (t Token) isExpired() bool {
-	expires, _ :=  time.Parse( time.RFC1123, "Thu, 02 Jan 2020 20:22:36 GMT")
+	expires, _ := time.Parse(time.RFC1123, "Thu, 02 Jan 2020 20:22:36 GMT")
 
 	return expires.Add(10 * time.Second).After(time.Now())
 }
 
 type Location struct {
-	Id          	string        `json:"ID"`
-	Position    	string        `json:"PositionWKT"`
-	Name        	[]Translation `json:"Name"`
-	Description 	[]Translation `json:"Description"`
-	AvailableData	[]AvailableData
+	Id            string        `json:"ID"`
+	Position      string        `json:"PositionWKT"`
+	Name          []Translation `json:"Name"`
+	Description   []Translation `json:"Description"`
+	AvailableData []AvailableData
 }
 
 type Parameter struct {
-	Id		string			`json:"ID"`
-	Name	[]Translation	`json:"Name"`
-	Unit	string			`json:"Unit"`
-	ParameterType	string	`json:"Name"`
+	Id            string        `json:"ID"`
+	Name          []Translation `json:"Name"`
+	Unit          string        `json:"Unit"`
+	ParameterType string        `json:"Name"`
 }
 
 type ParameterType struct {
-	Id		string			`json:"ID"`
-	Name	[]Translation	`json:"Name"`
+	Id   string        `json:"ID"`
+	Name []Translation `json:"Name"`
 }
 
 type AvailableData struct {
-	Id					string			`json:"ID"`
-	Location			string			`json:"Location"`
-	Parameter			string			`json:"Parameter"`
-	CurrentInterval		int				`json:"CurrentInterval"`
+	Id              string `json:"ID"`
+	Location        string `json:"Location"`
+	Parameter       string `json:"Parameter"`
+	CurrentInterval int    `json:"CurrentInterval"`
 }
 
 type Translation struct {
@@ -61,23 +61,23 @@ type Translation struct {
 }
 
 type Catalog struct {
-	Locations		map[string]Location
-	Parameters		map[string]Parameter
-	ParameterTypes	map[string]ParameterType
-	AvailableData	map[string]AvailableData
+	Locations      map[string]Location
+	Parameters     map[string]Parameter
+	ParameterTypes map[string]ParameterType
+	AvailableData  map[string]AvailableData
 }
 
 type CatalogResult struct {
-	Locations 		[]Location			`json:"Locations"`
-	Parameters		[]Parameter			`json:"Parameters"`
-	ParameterTypes	[]ParameterType		`json:"ParameterTypes"`
-	AvailableData	[]AvailableData		`json:"AvailableData"`
+	Locations      []Location      `json:"Locations"`
+	Parameters     []Parameter     `json:"Parameters"`
+	ParameterTypes []ParameterType `json:"ParameterTypes"`
+	AvailableData  []AvailableData `json:"AvailableData"`
 }
 
 type CurrentData struct {
-	Id        		string  `json:"ID"`
-	Timestamp 		string  `json:"Timestamp"`
-	Value     		float32 `json:"Value"`
+	Id        string  `json:"ID"`
+	Timestamp string  `json:"Timestamp"`
+	Value     float32 `json:"Value"`
 }
 
 type CurrentDateResult struct {
@@ -110,7 +110,7 @@ func displayCurrentData(catalog Catalog, data map[string]CurrentData) string {
 	for _, aData := range data {
 		name := aData.Id
 		locationId := name[0:3]
-		unitId := name[(len(aData.Id)-3):len(aData.Id)]
+		unitId := name[(len(aData.Id) - 3):len(aData.Id)]
 		location := translate(catalog.Locations[locationId].Name, DEFAULT_LOCALE)
 		value := fmt.Sprintf("%.2f", aData.Value)
 		unit := catalog.Parameters[unitId].Unit
@@ -138,4 +138,3 @@ func safeToKite(beaufort int) bool {
 func formatLocation(location Location, locale string) string {
 	return translate(location.Name, locale)
 }
-

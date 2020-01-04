@@ -6,7 +6,7 @@ import (
 )
 
 func Testtranslate(t *testing.T) {
-	translations := []Translation {
+	translations := []Translation{
 		{
 			Locale:  "en-NL",
 			Message: "A message",
@@ -39,4 +39,3 @@ func TestsafeToKite(t *testing.T) {
 		t.Error("This should not be safe to kite")
 	}
 }
-

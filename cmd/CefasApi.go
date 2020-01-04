@@ -13,27 +13,27 @@ const CEFAS_API_URL = "http://wavenet.cefas.co.uk/Map/GetCurrent"
 //
 
 type FeaturesCollection struct {
-	Features	[]Feature	`json:"features"`
+	Features []Feature `json:"features"`
 }
 
 type Feature struct {
-	Properties	Properties `json:"properties"`
+	Properties Properties `json:"properties"`
 }
 
 type Properties struct {
-	Id			string	`json:"id"`
-	WaveHeight	string	`json:"WaveHeight"`
-	Title		string	`json:"title"`
-	Temperature	string	`json:"Temperature"`
-	Tpeak		string	`json:"Tpeak"`
-	Tz			string	`json:"Tz"`
-	Spread		string	`json:"Spread"`
+	Id          string `json:"id"`
+	WaveHeight  string `json:"WaveHeight"`
+	Title       string `json:"title"`
+	Temperature string `json:"Temperature"`
+	Tpeak       string `json:"Tpeak"`
+	Tz          string `json:"Tz"`
+	Spread      string `json:"Spread"`
 }
 
 // Retrieve data
 
 func getcurrent() map[string]Feature {
-	resp, err := http.Get( CEFAS_API_URL)
+	resp, err := http.Get(CEFAS_API_URL)
 
 	if err != nil {
 		log.Panic(err)
