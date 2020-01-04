@@ -5,6 +5,7 @@ import (
 	"github.com/go-telegram-bot-api/telegram-bot-api"
 	"log"
 	"os"
+	"strconv"
 )
 
 const HELP = `
@@ -25,7 +26,9 @@ func main() {
 		log.Panic(err)
 	}
 
-	bot.Debug = true
+	if debug, found := os.LookupEnv("telegram.debug"); found {
+		bot.Debug, _ = strconv.ParseBool(debug)
+	}
 
 	log.Printf("Authorized on account %s", bot.Self.UserName)
 
@@ -58,27 +61,29 @@ func main() {
 		case "currentdata":
 			msg.Text = "test"
 			//msg.Text = displayCurrentData(currentData(token))
-		case "safekite": {
-			id := "BL7WVC"
-			data := currentDataForId(validateToken(token), []string{id})[id]
-			beaufort := MeterePerSecondToBeaufortScale(data.Value)
-			text := "Wind: " + fmt.Sprintf("%.2f", data.Value)  + "m/s (" + DisplayBeaufort(beaufort) + ")\n"
-			if safeToKite(beaufort) {
-				text += "It is safe to kite"
-			} else {
-				text += "It is not safe to kite"
+		case "safekite":
+			{
+				id := "BL7WVC"
+				data := currentDataForId(validateToken(token), []string{id})[id]
+				beaufort := MeterePerSecondToBeaufortScale(data.Value)
+				text := "Wind: " + fmt.Sprintf("%.2f", data.Value) + "m/s (" + DisplayBeaufort(beaufort) + ")\n"
+				if safeToKite(beaufort) {
+					text += "It is safe to kite"
+				} else {
+					text += "It is not safe to kite"
+				}
+				msg.Text = text
 			}
-			msg.Text = text
-		}
-		case "cefas": {
-			current := getcurrent()
-			id := update.Message.CommandArguments()
-			if feature, ok := current[id]; ok {
-				msg.Text = displayCurrentWaveHeight(feature)
-			} else  {
-				msg.Text = "Could not find buoy: " + id
+		case "cefas":
+			{
+				current := getcurrent()
+				id := update.Message.CommandArguments()
+				if feature, ok := current[id]; ok {
+					msg.Text = displayCurrentWaveHeight(feature)
+				} else {
+					msg.Text = "Could not find buoy: " + id
+				}
 			}
-		}
 		case "cefasbuoys":
 			msg.Text = displayBuoys(getcurrent())
 		default:
