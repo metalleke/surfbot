@@ -1,0 +1,747 @@
+[
+  {
+    "ID": "A2BGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 62.0
+  },
+  {
+    "ID": "A2BGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 49.0
+  },
+  {
+    "ID": "A2BGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.18
+  },
+  {
+    "ID": "A2BHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.0
+  },
+  {
+    "ID": "A2BTZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 7.0
+  },
+  {
+    "ID": "AKZGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 87.0
+  },
+  {
+    "ID": "AKZGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 68.0
+  },
+  {
+    "ID": "AKZGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.33
+  },
+  {
+    "ID": "AKZHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 5.0
+  },
+  {
+    "ID": "AKZTZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 8.1
+  },
+  {
+    "ID": "BL7WRS",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 197.0
+  },
+  {
+    "ID": "BL7WVC",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 6.5
+  },
+  {
+    "ID": "BLKWS5",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 79.0
+  },
+  {
+    "ID": "BVHGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 58.0
+  },
+  {
+    "ID": "BVHGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 45.0
+  },
+  {
+    "ID": "BVHGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.05
+  },
+  {
+    "ID": "BVHHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 4.0
+  },
+  {
+    "ID": "BVHTZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 6.9
+  },
+  {
+    "ID": "KWIGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 77.0
+  },
+  {
+    "ID": "KWIGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 61.0
+  },
+  {
+    "ID": "KWIGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.20
+  },
+  {
+    "ID": "KWIHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.0
+  },
+  {
+    "ID": "KWITZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 8.0
+  },
+  {
+    "ID": "MP0LDR",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 1020.9
+  },
+  {
+    "ID": "MP0SR3",
+    "Timestamp": "2017-09-18T09:30:00+00:00",
+    "Value": 103.11
+  },
+  {
+    "ID": "MP0TLU",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 4.9
+  },
+  {
+    "ID": "MP0WC3",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 9.1
+  },
+  {
+    "ID": "MP0WRS",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 187.0
+  },
+  {
+    "ID": "MP0WS5",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 79.0
+  },
+  {
+    "ID": "MP0WVC",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 7.9
+  },
+  {
+    "ID": "MP1LDR",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 1021.3
+  },
+  {
+    "ID": "MP1WS5",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 76.0
+  },
+  {
+    "ID": "MP2LDR",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 1021.9
+  },
+  {
+    "ID": "MP3LDR",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 1021.5
+  },
+  {
+    "ID": "MP3SR3",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 252.0
+  },
+  {
+    "ID": "MP3SV3",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 0.39
+  },
+  {
+    "ID": "MP3TLU",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 5.0
+  },
+  {
+    "ID": "MP3WS5",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 76.0
+  },
+  {
+    "ID": "MP4LDR",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 1021.6
+  },
+  {
+    "ID": "MP4SR3",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 241.0
+  },
+  {
+    "ID": "MP4SV3",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 0.20
+  },
+  {
+    "ID": "MP4TLU",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 5.0
+  },
+  {
+    "ID": "MP4TZW",
+    "Timestamp": "2017-03-16T07:30:00+00:00",
+    "Value": 0.0
+  },
+  {
+    "ID": "MP4WC3",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 6.8
+  },
+  {
+    "ID": "MP4WRS",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 188.0
+  },
+  {
+    "ID": "MP4WS5",
+    "Timestamp": "2020-01-02T12:35:00+00:00",
+    "Value": 72.0
+  },
+  {
+    "ID": "MP4WVC",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 5.3
+  },
+  {
+    "ID": "MP7LDR",
+    "Timestamp": "2019-12-16T04:30:00+00:00",
+    "Value": 1000.0
+  },
+  {
+    "ID": "MP7TLU",
+    "Timestamp": "2019-12-15T18:30:00+00:00",
+    "Value": 8.9
+  },
+  {
+    "ID": "MP7TZW",
+    "Timestamp": "2019-12-15T20:00:00+00:00",
+    "Value": 10.5
+  },
+  {
+    "ID": "MP7WC3",
+    "Timestamp": "2019-12-16T04:40:00+00:00",
+    "Value": 15.13
+  },
+  {
+    "ID": "MP7WRS",
+    "Timestamp": "2019-12-16T04:40:00+00:00",
+    "Value": 182.0
+  },
+  {
+    "ID": "MP7WS5",
+    "Timestamp": "2019-12-16T04:35:00+00:00",
+    "Value": 345.0
+  },
+  {
+    "ID": "MP7WVC",
+    "Timestamp": "2019-12-16T04:40:00+00:00",
+    "Value": 12.75
+  },
+  {
+    "ID": "NP7WRS",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 198.0
+  },
+  {
+    "ID": "NP7WVC",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 5.3
+  },
+  {
+    "ID": "NPBGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 23.0
+  },
+  {
+    "ID": "NPBGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 18.0
+  },
+  {
+    "ID": "NPBGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 2.94
+  },
+  {
+    "ID": "NPBHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 8.0
+  },
+  {
+    "ID": "NPTWS5",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 75.0
+  },
+  {
+    "ID": "OHMWS5",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 79.0
+  },
+  {
+    "ID": "OMPHUM",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 95.0
+  },
+  {
+    "ID": "OMPNSI",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 0.00
+  },
+  {
+    "ID": "OMPTGR",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 5.0
+  },
+  {
+    "ID": "OMPTLU",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 4.6
+  },
+  {
+    "ID": "OMPWC3",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 7.77
+  },
+  {
+    "ID": "OMPWRS",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 173.0
+  },
+  {
+    "ID": "OMPWVC",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 5.8
+  },
+  {
+    "ID": "OMPZON",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 43.0
+  },
+  {
+    "ID": "OOSGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 31.0
+  },
+  {
+    "ID": "OOSGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 24.0
+  },
+  {
+    "ID": "OOSGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 2.95
+  },
+  {
+    "ID": "OOSHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 4.0
+  },
+  {
+    "ID": "OOSTZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 6.9
+  },
+  {
+    "ID": "OPOGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 55.0
+  },
+  {
+    "ID": "OPOGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 43.0
+  },
+  {
+    "ID": "OPOGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 2.86
+  },
+  {
+    "ID": "OPOHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 4.0
+  },
+  {
+    "ID": "OPOTZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 7.8
+  },
+  {
+    "ID": "OS7WG3",
+    "Timestamp": "2019-02-27T07:20:00+00:00",
+    "Value": 8.1
+  },
+  {
+    "ID": "OS7WRS",
+    "Timestamp": "2019-02-27T07:20:00+00:00",
+    "Value": 190.0
+  },
+  {
+    "ID": "OS7WVS",
+    "Timestamp": "2019-02-27T07:20:00+00:00",
+    "Value": 6.8
+  },
+  {
+    "ID": "OSNGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 68.0
+  },
+  {
+    "ID": "OSNGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 53.0
+  },
+  {
+    "ID": "OSNGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.00
+  },
+  {
+    "ID": "OSNHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.0
+  },
+  {
+    "ID": "OSNTZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 7.1
+  },
+  {
+    "ID": "OSTGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 31.0
+  },
+  {
+    "ID": "OSTGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 24.0
+  },
+  {
+    "ID": "OSTGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 2.95
+  },
+  {
+    "ID": "OSTHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 4.0
+  },
+  {
+    "ID": "OSTTZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 6.9
+  },
+  {
+    "ID": "RAVGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 30.0
+  },
+  {
+    "ID": "RAVGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 23.0
+  },
+  {
+    "ID": "RAVGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 2.69
+  },
+  {
+    "ID": "RAVHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.0
+  },
+  {
+    "ID": "RAVTZW",
+    "Timestamp": "2019-11-30T23:30:00+00:00",
+    "Value": 0.0
+  },
+  {
+    "ID": "SWIGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 46.0
+  },
+  {
+    "ID": "SWIGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 36.0
+  },
+  {
+    "ID": "SWIGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.04
+  },
+  {
+    "ID": "SWIHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.0
+  },
+  {
+    "ID": "SWITZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 6.7
+  },
+  {
+    "ID": "THZGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 94.0
+  },
+  {
+    "ID": "THZGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 74.0
+  },
+  {
+    "ID": "THZGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.51
+  },
+  {
+    "ID": "THZHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 6.0
+  },
+  {
+    "ID": "THZTZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 8.8
+  },
+  {
+    "ID": "TRGGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 27.0
+  },
+  {
+    "ID": "TRGGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 21.0
+  },
+  {
+    "ID": "TRGGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 2.39
+  },
+  {
+    "ID": "TRGHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 2.0
+  },
+  {
+    "ID": "WDLGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 59.0
+  },
+  {
+    "ID": "WDLGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 46.0
+  },
+  {
+    "ID": "WDLGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 2.94
+  },
+  {
+    "ID": "WDLHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.0
+  },
+  {
+    "ID": "WDLTZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 6.8
+  },
+  {
+    "ID": "WHIGH1",
+    "Timestamp": "2019-11-18T14:00:00+00:00",
+    "Value": 401.0
+  },
+  {
+    "ID": "WHIGHA",
+    "Timestamp": "2019-11-18T14:00:00+00:00",
+    "Value": 315.0
+  },
+  {
+    "ID": "WHIGTZ",
+    "Timestamp": "2019-11-18T14:00:00+00:00",
+    "Value": 5.58
+  },
+  {
+    "ID": "WHIHLF",
+    "Timestamp": "2019-11-18T14:00:00+00:00",
+    "Value": 26.0
+  },
+  {
+    "ID": "WHITZW",
+    "Timestamp": "2019-10-31T23:30:00+00:00",
+    "Value": 0.0
+  },
+  {
+    "ID": "ZDIHUM",
+    "Timestamp": "2019-05-31T23:50:00+00:00",
+    "Value": 86.0
+  },
+  {
+    "ID": "ZDILDR",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 1022.0
+  },
+  {
+    "ID": "ZDINSI",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 0.0
+  },
+  {
+    "ID": "ZDITLU",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 5.5
+  },
+  {
+    "ID": "ZDIWC1",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 7.0
+  },
+  {
+    "ID": "ZDIWRS",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 187.0
+  },
+  {
+    "ID": "ZDIWVC",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 4.5
+  },
+  {
+    "ID": "ZDIZON",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 43.0
+  },
+  {
+    "ID": "ZHGGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 22.0
+  },
+  {
+    "ID": "ZHGGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 18.0
+  },
+  {
+    "ID": "ZHGGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 3.09
+  },
+  {
+    "ID": "ZHGHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 2.0
+  },
+  {
+    "ID": "ZHGTZW",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 6.6
+  },
+  {
+    "ID": "ZLDWS5",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 82.0
+  },
+  {
+    "ID": "ZMPHUM",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 93.0
+  },
+  {
+    "ID": "ZMPLDR",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 1022.2
+  },
+  {
+    "ID": "ZMPNSI",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 0.0
+  },
+  {
+    "ID": "ZMPTGR",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 3.7
+  },
+  {
+    "ID": "ZMPTLU",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 5.1
+  },
+  {
+    "ID": "ZMPWC1",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 8.4
+  },
+  {
+    "ID": "ZMPWRS",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 197.0
+  },
+  {
+    "ID": "ZMPWVC",
+    "Timestamp": "2020-01-02T12:40:00+00:00",
+    "Value": 5.4
+  },
+  {
+    "ID": "ZMPZON",
+    "Timestamp": "2019-10-17T07:00:00+00:00",
+    "Value": 45.0
+  },
+  {
+    "ID": "ZOKGH1",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 9.0
+  },
+  {
+    "ID": "ZOKGHA",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 7.0
+  },
+  {
+    "ID": "ZOKGTZ",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 2.62
+  },
+  {
+    "ID": "ZOKHLF",
+    "Timestamp": "2020-01-02T12:30:00+00:00",
+    "Value": 0.0
+  }
+]

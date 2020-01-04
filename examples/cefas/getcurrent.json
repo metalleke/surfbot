@@ -1,0 +1,3237 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6367333333333338,
+          53.7839
+        ]
+      },
+      "properties": {
+        "id": "AFBI38ADWR",
+        "datasource": "INT",
+        "reference": "AFBI38ADWR~INT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 257,
+        "opacity": 1,
+        "description": "\u003ch3\u003eAFBI 038A Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.25\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.04 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.1 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e257\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e23\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "AFBI 038A Waverider",
+        "display": "",
+        "labelAlign": "ct",
+        "labelXOffset": 0,
+        "labelYOffset": 23,
+        "WaveHeight": "1.0",
+        "Temperature": "10.3",
+        "Tpeak": "4.1",
+        "Tz": "3.5",
+        "Spread": "23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0568388888888878,
+          56.062055555555553
+        ]
+      },
+      "properties": {
+        "id": "BLKSTONEWN",
+        "datasource": "INT",
+        "reference": "BLKSTONEWN~INT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 302,
+        "opacity": 1,
+        "description": "\u003ch3\u003eBlackstones WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.55\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.18 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e15.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e302\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e38\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Blackstones WaveNet Site",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -28,
+        "labelYOffset": -28,
+        "WaveHeight": "5.2",
+        "Temperature": "9.6",
+        "Tpeak": "15.4",
+        "Tz": "8.5",
+        "Spread": "38"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0531677777777777,
+          53.531238888888893
+        ]
+      },
+      "properties": {
+        "id": "DOWSINGWN",
+        "datasource": "INT",
+        "reference": "DOWSINGWN~INT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 352,
+        "opacity": 1,
+        "description": "\u003ch3\u003eDowsing WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.65\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.74 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.9 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e352\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e18\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Dowsing WaveNet Site",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -24,
+        "WaveHeight": "1.7",
+        "Temperature": "7.7",
+        "Tpeak": "6.9",
+        "Tz": "4.6",
+        "Spread": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.504025,
+          56.187866666666658
+        ]
+      },
+      "properties": {
+        "id": "FORTHWN",
+        "datasource": "INT",
+        "reference": "FORTHWN~INT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 240,
+        "opacity": 1,
+        "description": "\u003ch3\u003eFirth of Forth WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.00\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.02 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.9 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e240\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e16\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Firth of Forth WaveNet Site",
+        "display": "",
+        "labelAlign": "rt",
+        "labelXOffset": 23,
+        "labelYOffset": 23,
+        "WaveHeight": "1.0",
+        "Temperature": "8.0",
+        "Tpeak": "4.9",
+        "Tz": "3.6",
+        "Spread": "16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.75489083333333329,
+          50.746452500000004
+        ]
+      },
+      "properties": {
+        "id": "HASTINGSWN",
+        "datasource": "INT",
+        "reference": "HASTINGSWN~INT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 246,
+        "opacity": 1,
+        "description": "\u003ch3\u003eHastings WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.50\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.15 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.2 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e246\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e18\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Hastings WaveNet Site",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -23,
+        "WaveHeight": "1.2",
+        "Temperature": "10.5",
+        "Tpeak": "7.7",
+        "Tz": "5.2",
+        "Spread": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1798888888888892,
+          51.231311111111118
+        ]
+      },
+      "properties": {
+        "id": "HINKLY2DWR",
+        "datasource": "INT",
+        "reference": "HINKLY2DWR~INT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 281,
+        "opacity": 1,
+        "description": "\u003ch3\u003eHinkley Point 2 Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.85\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.92 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.0 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e281\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Hinkley Point 2 Waverider",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -22,
+        "WaveHeight": "0.9",
+        "Temperature": "7.9",
+        "Tpeak": "5.6",
+        "Tz": "4.0",
+        "Spread": "14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3550590909090912,
+          53.533509090909085
+        ]
+      },
+      "properties": {
+        "id": "LIVBAYWN",
+        "datasource": "INT",
+        "reference": "LIVBAYWN~INT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 291,
+        "opacity": 1,
+        "description": "\u003ch3\u003eLiverpool Bay WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.25\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.63 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e291\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e18\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Liverpool Bay WaveNet Site",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -26,
+        "labelYOffset": 0,
+        "WaveHeight": "1.6",
+        "Temperature": "7.3",
+        "Tpeak": "6.5",
+        "Tz": "4.6",
+        "Spread": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3332166666666665,
+          57.9664619047619
+        ]
+      },
+      "properties": {
+        "id": "MORAYWN",
+        "datasource": "INT",
+        "reference": "MORAYWN~INT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 260,
+        "opacity": 1,
+        "description": "\u003ch3\u003eMoray Firth WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.20\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.49 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.9 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.0 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e260\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e23\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Moray Firth WaveNet Site",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 24,
+        "labelYOffset": -24,
+        "WaveHeight": "1.5",
+        "Temperature": "8.2",
+        "Tpeak": "5.0",
+        "Tz": "3.9",
+        "Spread": "23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7188987179487181,
+          50.633665384615384
+        ]
+      },
+      "properties": {
+        "id": "POOLEBAYWN",
+        "datasource": "INT",
+        "reference": "POOLEBAYWN~INT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 217,
+        "opacity": 1,
+        "description": "\u003ch3\u003ePoole Bay WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.30\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.27 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.0 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e16.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e217\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e34\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Poole Bay WaveNet Site",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -23,
+        "WaveHeight": "1.3",
+        "Temperature": "9.3",
+        "Tpeak": "16.7",
+        "Tz": "7.0",
+        "Spread": "34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.933152083333332,
+          51.433248958333316
+        ]
+      },
+      "properties": {
+        "id": "SCARWTHRWN",
+        "datasource": "INT",
+        "reference": "SCARWTHRWN~INT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 257,
+        "opacity": 1,
+        "description": "\u003ch3\u003eScarweather WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.85\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.98 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.0 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e257\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e16\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Scarweather WaveNet Site",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -26,
+        "labelYOffset": 0,
+        "WaveHeight": "2.0",
+        "Temperature": "8.9",
+        "Tpeak": "10.0",
+        "Tz": "5.7",
+        "Spread": "16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6844041666666663,
+          52.207956944444426
+        ]
+      },
+      "properties": {
+        "id": "SIZEWELDWR",
+        "datasource": "INT",
+        "reference": "SIZEWELDWR~INT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 48,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSizewell Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.10\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.59 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.1 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e48\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e31\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Sizewell Waverider",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -21,
+        "labelYOffset": -21,
+        "WaveHeight": "0.6",
+        "Temperature": "7.1",
+        "Tpeak": "6.1",
+        "Tz": "4.6",
+        "Spread": "31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5790060606060605,
+          51.570513636363621
+        ]
+      },
+      "properties": {
+        "id": "STHKNOCKWN",
+        "datasource": "INT",
+        "reference": "STHKNOCKWN~INT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 329,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSouth Knock WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.00\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.89 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e329\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e41\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "South Knock WaveNet Site",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -24,
+        "labelYOffset": 0,
+        "WaveHeight": "0.9",
+        "Temperature": "10.0",
+        "Tpeak": "3.6",
+        "Tz": "3.5",
+        "Spread": "41"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.23333333333333,
+          51.458333333333336
+        ]
+      },
+      "properties": {
+        "id": "SPEMBROKWN",
+        "datasource": "INT",
+        "reference": "SPEMBROKWN~INT",
+        "type": "circle",
+        "scale": 3,
+        "strokeColor": "#000000",
+        "fillColor": "#FFFF00",
+        "rotation": 0,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSouth Pembrokeshire WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 15:00 06/11/2019\u003ctable class=\"popuptable\"\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "South Pembrokeshire WaveNet Site",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -20,
+        "labelYOffset": 0,
+        "WaveHeight": "",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7838444444444166,
+          52.312473611111109
+        ]
+      },
+      "properties": {
+        "id": "STHWOLDWN",
+        "datasource": "INT",
+        "reference": "STHWOLDWN~INT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 41,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSouthwold Approach WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.20\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.59 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e41\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e31\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Southwold Approach WaveNet Site",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -23,
+        "labelYOffset": 0,
+        "WaveHeight": "0.6",
+        "Temperature": "7.2",
+        "Tpeak": "5.7",
+        "Tz": "3.7",
+        "Spread": "31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5451583333333332,
+          49.816708333333331
+        ]
+      },
+      "properties": {
+        "id": "SWSCILLYWN",
+        "datasource": "INT",
+        "reference": "SWSCILLYWN~INT",
+        "type": "arrow",
+        "scale": 12,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 298,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSW Isles of Scilly WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.75\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.89 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e13.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e298\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e18\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "SW Isles of Scilly WaveNet Site",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -27,
+        "labelYOffset": -27,
+        "WaveHeight": "3.9",
+        "Temperature": "10.8",
+        "Tpeak": "13.3",
+        "Tz": "8.4",
+        "Spread": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4094399999999996,
+          55.979826666666668
+        ]
+      },
+      "properties": {
+        "id": "TORNESSDWR",
+        "datasource": "INT",
+        "reference": "TORNESSDWR~INT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 27,
+        "opacity": 1,
+        "description": "\u003ch3\u003eTorness Power Station Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.40\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.51 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.1 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e27\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e35\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Torness Power Station Waverider",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 23,
+        "labelYOffset": 0,
+        "WaveHeight": "0.5",
+        "Temperature": "7.4",
+        "Tpeak": "10.5",
+        "Tz": "3.1",
+        "Spread": "35"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.74879393939393946,
+          54.918913636363634
+        ]
+      },
+      "properties": {
+        "id": "TYNETEESWN",
+        "datasource": "INT",
+        "reference": "TYNETEESWN~INT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 290,
+        "opacity": 1,
+        "description": "\u003ch3\u003eTyne/Tees WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.45\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.82 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e290\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e26\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Tyne/Tees WaveNet Site",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 26,
+        "labelYOffset": 0,
+        "WaveHeight": "1.8",
+        "Temperature": "8.5",
+        "Tpeak": "4.5",
+        "Tz": "4.5",
+        "Spread": "26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1088333333333331,
+          51.952733333333335
+        ]
+      },
+      "properties": {
+        "id": "WESTGAB2WN",
+        "datasource": "INT",
+        "reference": "WESTGAB2WN~INT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 21,
+        "opacity": 1,
+        "description": "\u003ch3\u003eWest Gabbard 2 WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.40\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.15 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.0 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e21\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e41\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "West Gabbard 2 WaveNet Site",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 23,
+        "labelYOffset": -23,
+        "WaveHeight": "1.2",
+        "Temperature": "10.4",
+        "Tpeak": "5.7",
+        "Tz": "4.0",
+        "Spread": "41"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.914194444444445,
+          57.292138888888893
+        ]
+      },
+      "properties": {
+        "id": "WHEBRIDSWN",
+        "datasource": "INT",
+        "reference": "WHEBRIDSWN~INT",
+        "type": "arrow",
+        "scale": 14,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 295,
+        "opacity": 1,
+        "description": "\u003ch3\u003eWest of Hebrides WaveNet Site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.70\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.84 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.2 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e13.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e295\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e28\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "West of Hebrides WaveNet Site",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -29,
+        "labelYOffset": -29,
+        "WaveHeight": "6.8",
+        "Temperature": "9.7",
+        "Tpeak": "13.3",
+        "Tz": "9.2",
+        "Spread": "28"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7,
+          60.8
+        ]
+      },
+      "properties": {
+        "id": "152",
+        "datasource": "EXT",
+        "reference": "152~EXT",
+        "type": "arrow",
+        "scale": 14,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 310,
+        "opacity": 1,
+        "description": "\u003ch3\u003eAlwyn North\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.00 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Alwyn North",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -31,
+        "labelYOffset": 0,
+        "WaveHeight": "7.0",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "9.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4,
+          58
+        ]
+      },
+      "properties": {
+        "id": "302",
+        "datasource": "EXT",
+        "reference": "302~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 270,
+        "opacity": 1,
+        "description": "\u003ch3\u003eAndrew\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.00 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Andrew",
+        "display": "",
+        "labelAlign": "ct",
+        "labelXOffset": 0,
+        "labelYOffset": 28,
+        "WaveHeight": "5.0",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "8.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8,
+          57.9
+        ]
+      },
+      "properties": {
+        "id": "295",
+        "datasource": "EXT",
+        "reference": "295~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eArmada\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.00 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Armada",
+        "display": "",
+        "labelAlign": "rt",
+        "labelXOffset": 28,
+        "labelYOffset": 28,
+        "WaveHeight": "5.0",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "8.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          59.5
+        ]
+      },
+      "properties": {
+        "id": "36",
+        "datasource": "EXT",
+        "reference": "36~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 290,
+        "opacity": 1,
+        "description": "\u003ch3\u003eBeryl A\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.20 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Beryl A",
+        "display": "",
+        "labelAlign": "lt",
+        "labelXOffset": -28,
+        "labelYOffset": 28,
+        "WaveHeight": "5.2",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "8.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2761666666666676,
+          51.058499999999988
+        ]
+      },
+      "properties": {
+        "id": "223",
+        "datasource": "EXT",
+        "reference": "223~EXT",
+        "type": "arrow",
+        "scale": 10,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 281,
+        "opacity": 1,
+        "description": "\u003ch3\u003eBideford Bay Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.60\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e2.59 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e12.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e281\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e12\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Bideford Bay Waverider",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -27,
+        "labelYOffset": 0,
+        "WaveHeight": "2.6",
+        "Temperature": "9.6",
+        "Tpeak": "12.5",
+        "Tz": "7.4",
+        "Spread": "12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1039449999999997,
+          53.05733
+        ]
+      },
+      "properties": {
+        "id": "362",
+        "datasource": "EXT",
+        "reference": "362~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 0,
+        "opacity": 1,
+        "description": "\u003ch3\u003eBlakeney Overfalls Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.10\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.24 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e24\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Blakeney Overfalls Waverider",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -23,
+        "WaveHeight": "1.2",
+        "Temperature": "7.1",
+        "Tpeak": "6.3",
+        "Tz": "4.3",
+        "Spread": "24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8396666666666663,
+          50.711333333333329
+        ]
+      },
+      "properties": {
+        "id": "208",
+        "datasource": "EXT",
+        "reference": "208~EXT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 202,
+        "opacity": 1,
+        "description": "\u003ch3\u003eBoscombe Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:47 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e-0.25\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.49 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e16.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e203\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e23\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Boscombe Waverider",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -23,
+        "labelYOffset": 0,
+        "WaveHeight": "0.5",
+        "Temperature": "-0.3",
+        "Tpeak": "16.7",
+        "Tz": "7.7",
+        "Spread": "23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83916666666666673,
+          50.723
+        ]
+      },
+      "properties": {
+        "id": "212",
+        "datasource": "EXT",
+        "reference": "212~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 204,
+        "opacity": 1,
+        "description": "\u003ch3\u003eBracklesham Bay Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.70\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.17 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e16.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e204\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e23\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Bracklesham Bay Waverider",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 23,
+        "labelYOffset": -23,
+        "WaveHeight": "1.2",
+        "Temperature": "8.7",
+        "Tpeak": "16.7",
+        "Tz": "6.6",
+        "Spread": "23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.4666666666666668,
+          47.55
+        ]
+      },
+      "properties": {
+        "id": "334",
+        "datasource": "EXT",
+        "reference": "334~EXT",
+        "type": "arrow",
+        "scale": 12,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 10,
+        "opacity": 1,
+        "description": "\u003ch3\u003eBrittany Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.90 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Brittany Buoy",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -27,
+        "labelYOffset": -27,
+        "WaveHeight": "3.9",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "9.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6,
+          59.5
+        ]
+      },
+      "properties": {
+        "id": "312",
+        "datasource": "EXT",
+        "reference": "312~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 300,
+        "opacity": 1,
+        "description": "\u003ch3\u003eBruce\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.90 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Bruce",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 30,
+        "labelYOffset": 0,
+        "WaveHeight": "4.9",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "8.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8,
+          52.43333333333333
+        ]
+      },
+      "properties": {
+        "id": "353",
+        "datasource": "EXT",
+        "reference": "353~EXT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 248,
+        "opacity": 1,
+        "description": "\u003ch3\u003eCardigan Bay Waverider Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.05\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.78 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e13.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e248\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Cardigan Bay Waverider Buoy",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 26,
+        "labelYOffset": 0,
+        "WaveHeight": "1.8",
+        "Temperature": "9.1",
+        "Tpeak": "13.3",
+        "Tz": "5.4",
+        "Spread": "14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9,
+          49.9
+        ]
+      },
+      "properties": {
+        "id": "3",
+        "datasource": "EXT",
+        "reference": "3~EXT",
+        "type": "arrow",
+        "scale": 10,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 320,
+        "opacity": 1,
+        "description": "\u003ch3\u003eChannel Light Vessel\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e11.30\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e2.30 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Channel Light Vessel",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -25,
+        "labelYOffset": -25,
+        "WaveHeight": "2.3",
+        "Temperature": "11.3",
+        "Tpeak": "",
+        "Tz": "10.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.446969,
+          53.24551
+        ]
+      },
+      "properties": {
+        "id": "360",
+        "datasource": "EXT",
+        "reference": "360~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 32,
+        "opacity": 1,
+        "description": "\u003ch3\u003eChapel Point Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.55\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.83 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.1 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e32\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e18\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Chapel Point Waverider",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -24,
+        "labelYOffset": 0,
+        "WaveHeight": "0.8",
+        "Temperature": "6.6",
+        "Tpeak": "6.7",
+        "Tz": "4.1",
+        "Spread": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5225000000000004,
+          50.602833333333351
+        ]
+      },
+      "properties": {
+        "id": "206",
+        "datasource": "EXT",
+        "reference": "206~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 217,
+        "opacity": 1,
+        "description": "\u003ch3\u003eChesil Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.45\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.15 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e15.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e217\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e46\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Chesil Waverider",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -23,
+        "WaveHeight": "1.2",
+        "Temperature": "10.5",
+        "Tpeak": "15.4",
+        "Tz": "5.6",
+        "Spread": "46"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6,
+          60.7
+        ]
+      },
+      "properties": {
+        "id": "315",
+        "datasource": "EXT",
+        "reference": "315~EXT",
+        "type": "arrow",
+        "scale": 15,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 290,
+        "opacity": 1,
+        "description": "\u003ch3\u003eClair\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.20 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Clair",
+        "display": "",
+        "labelAlign": "ct",
+        "labelXOffset": 0,
+        "labelYOffset": 30,
+        "WaveHeight": "8.2",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "9.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3,
+          58.4
+        ]
+      },
+      "properties": {
+        "id": "47",
+        "datasource": "EXT",
+        "reference": "47~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eClaymore\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.00 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Claymore",
+        "display": "",
+        "labelAlign": "lt",
+        "labelXOffset": -28,
+        "labelYOffset": 28,
+        "WaveHeight": "5.0",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "8.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7,
+          54
+        ]
+      },
+      "properties": {
+        "id": "300",
+        "datasource": "EXT",
+        "reference": "300~EXT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eCleeton\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.80 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Cleeton",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -26,
+        "labelYOffset": 0,
+        "WaveHeight": "1.8",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "5.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1956666666666673,
+          53.895499999999984
+        ]
+      },
+      "properties": {
+        "id": "231",
+        "datasource": "EXT",
+        "reference": "231~EXT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 287,
+        "opacity": 1,
+        "description": "\u003ch3\u003eCleveleys Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:57 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.80\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.46 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e287\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e23\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Cleveleys Waverider",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -26,
+        "labelYOffset": 0,
+        "WaveHeight": "1.5",
+        "Temperature": "6.8",
+        "Tpeak": "5.6",
+        "Tz": "4.3",
+        "Spread": "23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7308333333333334,
+          53.458333333333336
+        ]
+      },
+      "properties": {
+        "id": "10",
+        "datasource": "EXT",
+        "reference": "10~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eClipper\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.40 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Clipper",
+        "display": "",
+        "labelAlign": "rt",
+        "labelXOffset": 23,
+        "labelYOffset": 23,
+        "WaveHeight": "1.4",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "5.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3,
+          56.5
+        ]
+      },
+      "properties": {
+        "id": "322",
+        "datasource": "EXT",
+        "reference": "322~EXT",
+        "type": "arrow",
+        "scale": 11,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 290,
+        "opacity": 1,
+        "description": "\u003ch3\u003eClyde\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.30 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Clyde",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 26,
+        "labelYOffset": -26,
+        "WaveHeight": "3.3",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "6.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0708333333333333,
+          61.102
+        ]
+      },
+      "properties": {
+        "id": "189",
+        "datasource": "EXT",
+        "reference": "189~EXT",
+        "type": "arrow",
+        "scale": 15,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 310,
+        "opacity": 1,
+        "description": "\u003ch3\u003eCormorant A\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.20 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Cormorant A",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -30,
+        "labelYOffset": -30,
+        "WaveHeight": "8.2",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "10.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1478333333333333,
+          61.239666666666665
+        ]
+      },
+      "properties": {
+        "id": "19",
+        "datasource": "EXT",
+        "reference": "19~EXT",
+        "type": "arrow",
+        "scale": 15,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 290,
+        "opacity": 1,
+        "description": "\u003ch3\u003eCormorant North\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.90 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Cormorant North",
+        "display": "",
+        "labelAlign": "rt",
+        "labelXOffset": 30,
+        "labelYOffset": 30,
+        "WaveHeight": "8.9",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "9.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.416666666666667,
+          50.579333333333345
+        ]
+      },
+      "properties": {
+        "id": "229",
+        "datasource": "EXT",
+        "reference": "229~EXT",
+        "type": "arrow",
+        "scale": 5,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 174,
+        "opacity": 1,
+        "description": "\u003ch3\u003eDawlish Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:48 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.05\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.31 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.1 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e174\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e25\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Dawlish Waverider",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 22,
+        "labelYOffset": 0,
+        "WaveHeight": "0.3",
+        "Temperature": "10.1",
+        "Tpeak": "14.3",
+        "Tz": "7.1",
+        "Spread": "25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7,
+          60.6
+        ]
+      },
+      "properties": {
+        "id": "311",
+        "datasource": "EXT",
+        "reference": "311~EXT",
+        "type": "arrow",
+        "scale": 14,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 290,
+        "opacity": 1,
+        "description": "\u003ch3\u003eDunbar\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.10 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Dunbar",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 31,
+        "labelYOffset": 0,
+        "WaveHeight": "7.1",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "9.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8,
+          57
+        ]
+      },
+      "properties": {
+        "id": "321",
+        "datasource": "EXT",
+        "reference": "321~EXT",
+        "type": "arrow",
+        "scale": 12,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eElgin\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.90 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Elgin",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -27,
+        "labelYOffset": -27,
+        "WaveHeight": "3.9",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "7.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4032055555555552,
+          58.988666666666667
+        ]
+      },
+      "properties": {
+        "id": "336",
+        "datasource": "EXT",
+        "reference": "336~EXT",
+        "type": "arrow",
+        "scale": 14,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 297,
+        "opacity": 1,
+        "description": "\u003ch3\u003eEMEC Waverider at Billia Croo wave power test site\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.20\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.39 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e297\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e32\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "EMEC Waverider at Billia Croo wave power test site",
+        "display": "",
+        "labelAlign": "lt",
+        "labelXOffset": -29,
+        "labelYOffset": 29,
+        "WaveHeight": "6.4",
+        "Temperature": "9.2",
+        "Tpeak": "14.3",
+        "Tz": "8.5",
+        "Spread": "32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6,
+          57.2
+        ]
+      },
+      "properties": {
+        "id": "298",
+        "datasource": "EXT",
+        "reference": "298~EXT",
+        "type": "arrow",
+        "scale": 12,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eETAP\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.20 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "ETAP",
+        "display": "",
+        "labelAlign": "ct",
+        "labelXOffset": 0,
+        "labelYOffset": 27,
+        "WaveHeight": "4.2",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "7.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8,
+          57.7
+        ]
+      },
+      "properties": {
+        "id": "304",
+        "datasource": "EXT",
+        "reference": "304~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eEverest North\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.00 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Everest North",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 30,
+        "labelYOffset": 0,
+        "WaveHeight": "5.0",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "8.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3938333333333333,
+          51.938166666666667
+        ]
+      },
+      "properties": {
+        "id": "367",
+        "datasource": "EXT",
+        "reference": "367~EXT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 72,
+        "opacity": 1,
+        "description": "\u003ch3\u003eFelixstowe Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.80\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.35 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.0 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e72\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e29\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Felixstowe Waverider",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 21,
+        "labelYOffset": -21,
+        "WaveHeight": "0.4",
+        "Temperature": "7.8",
+        "Tpeak": "5.0",
+        "Tz": "3.4",
+        "Spread": "29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1278333333333332,
+          51.062666666666672
+        ]
+      },
+      "properties": {
+        "id": "217",
+        "datasource": "EXT",
+        "reference": "217~EXT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 148,
+        "opacity": 1,
+        "description": "\u003ch3\u003eFolkestone Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:54 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.15\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.50 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e148\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e44\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Folkestone Waverider",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -21,
+        "WaveHeight": "0.5",
+        "Temperature": "9.2",
+        "Tpeak": "14.3",
+        "Tz": "5.7",
+        "Spread": "44"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9,
+          57.7
+        ]
+      },
+      "properties": {
+        "id": "297",
+        "datasource": "EXT",
+        "reference": "297~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 260,
+        "opacity": 1,
+        "description": "\u003ch3\u003eForties A\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.50 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Forties A",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -28,
+        "WaveHeight": "4.5",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "7.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9983333,
+          57.184167
+        ]
+      },
+      "properties": {
+        "id": "12",
+        "datasource": "EXT",
+        "reference": "12~EXT",
+        "type": "arrow",
+        "scale": 12,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 270,
+        "opacity": 1,
+        "description": "\u003ch3\u003eGannet\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.60 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Gannet",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -27,
+        "WaveHeight": "3.6",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "7.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5,
+          45.233333333333334
+        ]
+      },
+      "properties": {
+        "id": "333",
+        "datasource": "EXT",
+        "reference": "333~EXT",
+        "type": "arrow",
+        "scale": 11,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 350,
+        "opacity": 1,
+        "description": "\u003ch3\u003eGascogne Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e2.70 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Gascogne Buoy",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -26,
+        "labelYOffset": -26,
+        "WaveHeight": "2.7",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "8.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4834999999999996,
+          51.25
+        ]
+      },
+      "properties": {
+        "id": "218",
+        "datasource": "EXT",
+        "reference": "218~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 35,
+        "opacity": 1,
+        "description": "\u003ch3\u003eGoodwin Sands Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:44 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.65\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.91 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.0 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.8 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e35\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e41\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Goodwin Sands Waverider",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -22,
+        "WaveHeight": "0.9",
+        "Temperature": "9.7",
+        "Tpeak": "4.8",
+        "Tz": "4.0",
+        "Spread": "41"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          50.4
+        ]
+      },
+      "properties": {
+        "id": "9",
+        "datasource": "EXT",
+        "reference": "9~EXT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 320,
+        "opacity": 1,
+        "description": "\u003ch3\u003eGreenwich Light Vessel\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e11.00\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.60 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Greenwich Light Vessel",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -24,
+        "WaveHeight": "1.6",
+        "Temperature": "11.0",
+        "Tpeak": "",
+        "Tz": "7.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5499,
+          52.82618333333334
+        ]
+      },
+      "properties": {
+        "id": "365",
+        "datasource": "EXT",
+        "reference": "365~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 3,
+        "opacity": 1,
+        "description": "\u003ch3\u003eHappisburgh Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.35\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.99 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e19\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Happisburgh Waverider",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 24,
+        "labelYOffset": 0,
+        "WaveHeight": "1.0",
+        "Temperature": "6.4",
+        "Tpeak": "6.7",
+        "Tz": "4.7",
+        "Spread": "19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          59.2
+        ]
+      },
+      "properties": {
+        "id": "313",
+        "datasource": "EXT",
+        "reference": "313~EXT",
+        "type": "arrow",
+        "scale": 14,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eHarding\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.20 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Harding",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -31,
+        "labelYOffset": 0,
+        "WaveHeight": "6.2",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "9.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.066666666666666666,
+          53.916666666666664
+        ]
+      },
+      "properties": {
+        "id": "219",
+        "datasource": "EXT",
+        "reference": "219~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 14,
+        "opacity": 1,
+        "description": "\u003ch3\u003eHornsea Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.65\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.89 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.0 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.1 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e15\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Hornsea Waverider",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 22,
+        "labelYOffset": -22,
+        "WaveHeight": "0.9",
+        "Temperature": "7.7",
+        "Tpeak": "7.1",
+        "Tz": "4.0",
+        "Spread": "15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3121999999999989,
+          49.891966666666676
+        ]
+      },
+      "properties": {
+        "id": "337",
+        "datasource": "EXT",
+        "reference": "337~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 214,
+        "opacity": 1,
+        "description": "\u003ch3\u003eIsles of Scilly (St Marys Sound) Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.90\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.27 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e214\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e37\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Isles of Scilly (St Marys Sound) Waverider",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -23,
+        "WaveHeight": "1.3",
+        "Temperature": "10.9",
+        "Tpeak": "8.3",
+        "Tz": "6.6",
+        "Spread": "37"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.4,
+          48.7
+        ]
+      },
+      "properties": {
+        "id": "37",
+        "datasource": "EXT",
+        "reference": "37~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 300,
+        "opacity": 1,
+        "description": "\u003ch3\u003eK1 Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.80\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.00 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "K1 Buoy",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -28,
+        "labelYOffset": -28,
+        "WaveHeight": "5.0",
+        "Temperature": "10.8",
+        "Tpeak": "",
+        "Tz": "10.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.35,
+          54.53
+        ]
+      },
+      "properties": {
+        "id": "41",
+        "datasource": "EXT",
+        "reference": "41~EXT",
+        "type": "arrow",
+        "scale": 14,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 240,
+        "opacity": 1,
+        "description": "\u003ch3\u003eK4 Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.30\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.10 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "K4 Buoy",
+        "display": "",
+        "labelAlign": "lt",
+        "labelXOffset": -29,
+        "labelYOffset": 29,
+        "WaveHeight": "6.1",
+        "Temperature": "10.3",
+        "Tpeak": "",
+        "Tz": "10.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4,
+          59.1
+        ]
+      },
+      "properties": {
+        "id": "43",
+        "datasource": "EXT",
+        "reference": "43~EXT",
+        "type": "arrow",
+        "scale": 14,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 270,
+        "opacity": 1,
+        "description": "\u003ch3\u003eK5 Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.40\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.10 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "K5 Buoy",
+        "display": "",
+        "labelAlign": "lt",
+        "labelXOffset": -29,
+        "labelYOffset": 29,
+        "WaveHeight": "6.1",
+        "Temperature": "9.4",
+        "Tpeak": "",
+        "Tz": "10.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3333333333333339,
+          60.591666666666669
+        ]
+      },
+      "properties": {
+        "id": "44",
+        "datasource": "EXT",
+        "reference": "44~EXT",
+        "type": "arrow",
+        "scale": 14,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 310,
+        "opacity": 1,
+        "description": "\u003ch3\u003eK7 Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.90 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "K7 Buoy",
+        "display": "",
+        "labelAlign": "lt",
+        "labelXOffset": -29,
+        "labelYOffset": 29,
+        "WaveHeight": "6.9",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "10.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2,
+          57.2
+        ]
+      },
+      "properties": {
+        "id": "305",
+        "datasource": "EXT",
+        "reference": "305~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eLomond\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.60 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Lomond",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 30,
+        "labelYOffset": 0,
+        "WaveHeight": "4.6",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "7.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4118333333333331,
+          50.339499999999994
+        ]
+      },
+      "properties": {
+        "id": "224",
+        "datasource": "EXT",
+        "reference": "224~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 211,
+        "opacity": 1,
+        "description": "\u003ch3\u003eLooe Bay Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.85\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.83 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.2 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e15.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e211\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e18\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Looe Bay Waverider",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -22,
+        "WaveHeight": "0.8",
+        "Temperature": "10.9",
+        "Tpeak": "15.4",
+        "Tz": "8.2",
+        "Spread": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.81825,
+          52.47695
+        ]
+      },
+      "properties": {
+        "id": "364",
+        "datasource": "EXT",
+        "reference": "364~EXT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 37,
+        "opacity": 1,
+        "description": "\u003ch3\u003eLowestoft Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.75\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.61 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e37\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e35\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Lowestoft Waverider",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 23,
+        "labelYOffset": 0,
+        "WaveHeight": "0.6",
+        "Temperature": "6.8",
+        "Tpeak": "5.6",
+        "Tz": "4.4",
+        "Spread": "35"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.425,
+          53.48
+        ]
+      },
+      "properties": {
+        "id": "17",
+        "datasource": "EXT",
+        "reference": "17~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 270,
+        "opacity": 1,
+        "description": "\u003ch3\u003eM2 Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.60\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.30 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.9 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "M2 Buoy",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -23,
+        "WaveHeight": "1.3",
+        "Temperature": "10.6",
+        "Tpeak": "",
+        "Tz": "3.9",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.55,
+          51.217
+        ]
+      },
+      "properties": {
+        "id": "28",
+        "datasource": "EXT",
+        "reference": "28~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 270,
+        "opacity": 1,
+        "description": "\u003ch3\u003eM3 Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.50\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.00 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.2 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "M3 Buoy",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -28,
+        "labelYOffset": -28,
+        "WaveHeight": "5.0",
+        "Temperature": "10.5",
+        "Tpeak": "",
+        "Tz": "10.2",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.425,
+          54.858500000000006
+        ]
+      },
+      "properties": {
+        "id": "40",
+        "datasource": "EXT",
+        "reference": "40~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 260,
+        "opacity": 1,
+        "description": "\u003ch3\u003eM4 Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.20\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.20 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.9 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "M4 Buoy",
+        "display": "",
+        "labelAlign": "lt",
+        "labelXOffset": -28,
+        "labelYOffset": 28,
+        "WaveHeight": "5.2",
+        "Temperature": "10.2",
+        "Tpeak": "",
+        "Tz": "8.9",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7016666666666662,
+          51.695
+        ]
+      },
+      "properties": {
+        "id": "27",
+        "datasource": "EXT",
+        "reference": "27~EXT",
+        "type": "arrow",
+        "scale": 11,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 290,
+        "opacity": 1,
+        "description": "\u003ch3\u003eM5 Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.40\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.10 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.7 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "M5 Buoy",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -26,
+        "WaveHeight": "3.1",
+        "Temperature": "10.4",
+        "Tpeak": "",
+        "Tz": "8.7",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.93,
+          53.06
+        ]
+      },
+      "properties": {
+        "id": "129",
+        "datasource": "EXT",
+        "reference": "129~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 240,
+        "opacity": 1,
+        "description": "\u003ch3\u003eM6 Buoy\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e11.20\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.20 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "M6 Buoy",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -28,
+        "WaveHeight": "5.2",
+        "Temperature": "11.2",
+        "Tpeak": "",
+        "Tz": "9.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3,
+          61.6
+        ]
+      },
+      "properties": {
+        "id": "314",
+        "datasource": "EXT",
+        "reference": "314~EXT",
+        "type": "arrow",
+        "scale": 16,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eMagnus\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.20 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Magnus",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 33,
+        "labelYOffset": 0,
+        "WaveHeight": "9.2",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "10.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6151666666666669,
+          50.712499999999984
+        ]
+      },
+      "properties": {
+        "id": "209",
+        "datasource": "EXT",
+        "reference": "209~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 207,
+        "opacity": 1,
+        "description": "\u003ch3\u003eMilford Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:05 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.35\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.92 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e15.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e207\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e36\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Milford Waverider",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 24,
+        "labelYOffset": 0,
+        "WaveHeight": "0.9",
+        "Temperature": "9.4",
+        "Tpeak": "15.4",
+        "Tz": "5.7",
+        "Spread": "36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4720000000000009,
+          51.228666666666648
+        ]
+      },
+      "properties": {
+        "id": "204",
+        "datasource": "EXT",
+        "reference": "204~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 302,
+        "opacity": 1,
+        "description": "\u003ch3\u003eMinehead Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.15\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.88 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.9 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e302\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e11\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Minehead Waverider",
+        "display": "",
+        "labelAlign": "ct",
+        "labelXOffset": 0,
+        "labelYOffset": 22,
+        "WaveHeight": "0.9",
+        "Temperature": "8.2",
+        "Tpeak": "5.3",
+        "Tz": "3.9",
+        "Spread": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0659999999999994,
+          53.989500000000007
+        ]
+      },
+      "properties": {
+        "id": "232",
+        "datasource": "EXT",
+        "reference": "232~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 239,
+        "opacity": 1,
+        "description": "\u003ch3\u003eMorecambe Bay Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.55\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.23 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.9 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e239\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e17\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Morecambe Bay Waverider",
+        "display": "",
+        "labelAlign": "ct",
+        "labelXOffset": 0,
+        "labelYOffset": 23,
+        "WaveHeight": "1.2",
+        "Temperature": "6.6",
+        "Tpeak": "5.9",
+        "Tz": "4.5",
+        "Spread": "17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2,
+          57.3
+        ]
+      },
+      "properties": {
+        "id": "308",
+        "datasource": "EXT",
+        "reference": "308~EXT",
+        "type": "arrow",
+        "scale": 13,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 270,
+        "opacity": 1,
+        "description": "\u003ch3\u003eMungo\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.50 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Mungo",
+        "display": "",
+        "labelAlign": "rt",
+        "labelXOffset": 28,
+        "labelYOffset": 28,
+        "WaveHeight": "4.5",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "8.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4388333333333334,
+          57.662166666666664
+        ]
+      },
+      "properties": {
+        "id": "32",
+        "datasource": "EXT",
+        "reference": "32~EXT",
+        "type": "arrow",
+        "scale": 12,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 270,
+        "opacity": 1,
+        "description": "\u003ch3\u003eNelson A\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.30 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Nelson A",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -27,
+        "WaveHeight": "4.3",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "8.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4785000000000001,
+          55.18533333333334
+        ]
+      },
+      "properties": {
+        "id": "332",
+        "datasource": "EXT",
+        "reference": "332~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 46,
+        "opacity": 1,
+        "description": "\u003ch3\u003eNewbiggin Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.90\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.65 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e15.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e46\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e38\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Newbiggin Waverider",
+        "display": "",
+        "labelAlign": "rt",
+        "labelXOffset": 22,
+        "labelYOffset": 22,
+        "WaveHeight": "0.7",
+        "Temperature": "7.9",
+        "Tpeak": "15.4",
+        "Tz": "3.7",
+        "Spread": "38"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.46970928571428577,
+          53.053999999999995
+        ]
+      },
+      "properties": {
+        "id": "359",
+        "datasource": "EXT",
+        "reference": "359~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 30,
+        "opacity": 1,
+        "description": "\u003ch3\u003eNorth Well Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.70\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.73 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.1 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.9 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e30\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e23\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "North Well Waverider",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -22,
+        "labelYOffset": -22,
+        "WaveHeight": "0.7",
+        "Temperature": "6.7",
+        "Tpeak": "5.9",
+        "Tz": "3.1",
+        "Spread": "23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.503,
+          50.114333333333327
+        ]
+      },
+      "properties": {
+        "id": "200",
+        "datasource": "EXT",
+        "reference": "200~EXT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 191,
+        "opacity": 1,
+        "description": "\u003ch3\u003ePenzance Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:50 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.50\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.59 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.0 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e191\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e15\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Penzance Waverider",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -21,
+        "WaveHeight": "0.6",
+        "Temperature": "10.5",
+        "Tpeak": "10.0",
+        "Tz": "7.7",
+        "Spread": "15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1754999999999995,
+          50.35349999999999
+        ]
+      },
+      "properties": {
+        "id": "201",
+        "datasource": "EXT",
+        "reference": "201~EXT",
+        "type": "arrow",
+        "scale": 11,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 288,
+        "opacity": 1,
+        "description": "\u003ch3\u003ePerranporth Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:44 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.45\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e2.70 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e288\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e15\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Perranporth Waverider",
+        "display": "",
+        "labelAlign": "ct",
+        "labelXOffset": 0,
+        "labelYOffset": 26,
+        "WaveHeight": "2.7",
+        "Temperature": "10.5",
+        "Tpeak": "14.3",
+        "Tz": "6.5",
+        "Spread": "15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.308,
+          50.062666666666658
+        ]
+      },
+      "properties": {
+        "id": "234",
+        "datasource": "EXT",
+        "reference": "234~EXT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 242,
+        "opacity": 1,
+        "description": "\u003ch3\u003ePorthleven Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.50\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.71 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.8 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e242\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e20\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Porthleven Waverider",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 24,
+        "labelYOffset": -24,
+        "WaveHeight": "1.7",
+        "Temperature": "10.5",
+        "Tpeak": "14.3",
+        "Tz": "7.8",
+        "Spread": "20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9,
+          54
+        ]
+      },
+      "properties": {
+        "id": "310",
+        "datasource": "EXT",
+        "reference": "310~EXT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 300,
+        "opacity": 1,
+        "description": "\u003ch3\u003eRavenspurn North\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e2.00 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Ravenspurn North",
+        "display": "",
+        "labelAlign": "ct",
+        "labelXOffset": 0,
+        "labelYOffset": 24,
+        "WaveHeight": "2.0",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "5.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.49466666666666653,
+          50.734000000000009
+        ]
+      },
+      "properties": {
+        "id": "213",
+        "datasource": "EXT",
+        "reference": "213~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 222,
+        "opacity": 1,
+        "description": "\u003ch3\u003eRustington Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:01 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.80\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.17 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.9 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e16.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e222\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e28\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Rustington Waverider",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 23,
+        "labelYOffset": -23,
+        "WaveHeight": "1.2",
+        "Temperature": "8.8",
+        "Tpeak": "16.7",
+        "Tz": "6.9",
+        "Spread": "28"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8,
+          51.1
+        ]
+      },
+      "properties": {
+        "id": "8",
+        "datasource": "EXT",
+        "reference": "8~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 340,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSandettie Light Vessel\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.00\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.30 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Sandettie Light Vessel",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -23,
+        "WaveHeight": "1.3",
+        "Temperature": "10.0",
+        "Tpeak": "",
+        "Tz": "6.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1293333333333333,
+          50.650499999999994
+        ]
+      },
+      "properties": {
+        "id": "210",
+        "datasource": "EXT",
+        "reference": "210~EXT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 174,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSandown Bay Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:19 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.05\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.46 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.8 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e174\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e19\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Sandown Bay Waverider",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -21,
+        "WaveHeight": "0.5",
+        "Temperature": "9.1",
+        "Tpeak": "14.3",
+        "Tz": "6.8",
+        "Spread": "19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.35000000000000003,
+          54.291
+        ]
+      },
+      "properties": {
+        "id": "330",
+        "datasource": "EXT",
+        "reference": "330~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 3,
+        "opacity": 1,
+        "description": "\u003ch3\u003eScarborough Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.05\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.24 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e18\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Scarborough Waverider",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 25,
+        "labelYOffset": 0,
+        "WaveHeight": "1.2",
+        "Temperature": "8.1",
+        "Tpeak": "6.7",
+        "Tz": "4.7",
+        "Spread": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.12775,
+          51.70986666666667
+        ]
+      },
+      "properties": {
+        "id": "370",
+        "datasource": "EXT",
+        "reference": "370~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 198,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSEACAMS2 Dale Roads Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.85\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.69 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.6 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e198\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e26\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "SEACAMS2 Dale Roads Waverider",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -24,
+        "labelYOffset": 0,
+        "WaveHeight": "0.7",
+        "Temperature": "9.9",
+        "Tpeak": "14.3",
+        "Tz": "6.6",
+        "Spread": "26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9113333333333333,
+          51.575
+        ]
+      },
+      "properties": {
+        "id": "355",
+        "datasource": "EXT",
+        "reference": "355~EXT",
+        "type": "arrow",
+        "scale": 8,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 218,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSEACAMS2 Swansea Bay Waverider \u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:30 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.40\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.02 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e218\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e26\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "SEACAMS2 Swansea Bay Waverider ",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -25,
+        "labelYOffset": 0,
+        "WaveHeight": "1.0",
+        "Temperature": "8.4",
+        "Tpeak": "14.3",
+        "Tz": "5.5",
+        "Spread": "26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.075999999999999984,
+          50.766166666666663
+        ]
+      },
+      "properties": {
+        "id": "214",
+        "datasource": "EXT",
+        "reference": "214~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 236,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSeaford Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:57 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.10\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.91 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.5 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.1 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e236\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Seaford Waverider",
+        "display": "",
+        "labelAlign": "cb",
+        "labelXOffset": 0,
+        "labelYOffset": -22,
+        "WaveHeight": "0.9",
+        "Temperature": "9.1",
+        "Tpeak": "7.1",
+        "Tz": "5.5",
+        "Spread": "14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8625,
+          53.188333333333333
+        ]
+      },
+      "properties": {
+        "id": "11",
+        "datasource": "EXT",
+        "reference": "11~EXT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 300,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSean P\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.60 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Sean P",
+        "display": "",
+        "labelAlign": "rt",
+        "labelXOffset": 24,
+        "labelYOffset": 24,
+        "WaveHeight": "1.6",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "5.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1,
+          50.1
+        ]
+      },
+      "properties": {
+        "id": "4",
+        "datasource": "EXT",
+        "reference": "4~EXT",
+        "type": "arrow",
+        "scale": 11,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 330,
+        "opacity": 1,
+        "description": "\u003ch3\u003eSevenstones Light Vessel\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.70\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.10 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e9.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Sevenstones Light Vessel",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 28,
+        "labelYOffset": 0,
+        "WaveHeight": "3.1",
+        "Temperature": "10.7",
+        "Tpeak": "",
+        "Tz": "9.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9,
+          57
+        ]
+      },
+      "properties": {
+        "id": "194",
+        "datasource": "EXT",
+        "reference": "194~EXT",
+        "type": "arrow",
+        "scale": 12,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 290,
+        "opacity": 1,
+        "description": "\u003ch3\u003eShearwater\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.30 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Shearwater",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 27,
+        "labelYOffset": -27,
+        "WaveHeight": "4.3",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "7.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6175,
+          50.290833333333346
+        ]
+      },
+      "properties": {
+        "id": "202",
+        "datasource": "EXT",
+        "reference": "202~EXT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 190,
+        "opacity": 1,
+        "description": "\u003ch3\u003eStart Bay Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:54 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.55\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.59 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e190\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e45\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Start Bay Waverider",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -21,
+        "labelYOffset": -21,
+        "WaveHeight": "0.6",
+        "Temperature": "10.6",
+        "Tpeak": "14.3",
+        "Tz": "7.4",
+        "Spread": "45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9175,
+          61.275333333333336
+        ]
+      },
+      "properties": {
+        "id": "192",
+        "datasource": "EXT",
+        "reference": "192~EXT",
+        "type": "arrow",
+        "scale": 15,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 300,
+        "opacity": 1,
+        "description": "\u003ch3\u003eTern A\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e8.80 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Tern A",
+        "display": "",
+        "labelAlign": "lt",
+        "labelXOffset": -30,
+        "labelYOffset": 30,
+        "WaveHeight": "8.8",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "10.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5183333333333331,
+          50.433333333333323
+        ]
+      },
+      "properties": {
+        "id": "203",
+        "datasource": "EXT",
+        "reference": "203~EXT",
+        "type": "arrow",
+        "scale": 5,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 101,
+        "opacity": 1,
+        "description": "\u003ch3\u003eTor Bay Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.65\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.23 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.8 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e15.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e101\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e30\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Tor Bay Waverider",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 20,
+        "labelYOffset": -20,
+        "WaveHeight": "0.2",
+        "Temperature": "10.7",
+        "Tpeak": "15.4",
+        "Tz": "4.8",
+        "Spread": "30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8,
+          57.7
+        ]
+      },
+      "properties": {
+        "id": "309",
+        "datasource": "EXT",
+        "reference": "309~EXT",
+        "type": "arrow",
+        "scale": 12,
+        "strokeColor": "#0000FF",
+        "fillColor": "#0000FF",
+        "rotation": 210,
+        "opacity": 0,
+        "description": "\u003ch3\u003eUnity\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 13:00 02/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.90 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Unity",
+        "display": "",
+        "labelAlign": "lm",
+        "labelXOffset": -29,
+        "labelYOffset": 0,
+        "WaveHeight": "3.9",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "6.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.75,
+          50.693333333333335
+        ]
+      },
+      "properties": {
+        "id": "205",
+        "datasource": "EXT",
+        "reference": "205~EXT",
+        "type": "arrow",
+        "scale": 7,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 204,
+        "opacity": 1,
+        "description": "\u003ch3\u003eWest Bay Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:50 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.25\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.92 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.1 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e14.3 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e204\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e21\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "West Bay Waverider",
+        "display": "",
+        "labelAlign": "lb",
+        "labelXOffset": -22,
+        "labelYOffset": -22,
+        "WaveHeight": "0.9",
+        "Temperature": "10.3",
+        "Tpeak": "14.3",
+        "Tz": "6.1",
+        "Spread": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1,
+          53.7
+        ]
+      },
+      "properties": {
+        "id": "306",
+        "datasource": "EXT",
+        "reference": "306~EXT",
+        "type": "arrow",
+        "scale": 9,
+        "strokeColor": "#000000",
+        "fillColor": "#0000FF",
+        "rotation": 280,
+        "opacity": 1,
+        "description": "\u003ch3\u003eWest Sole A\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 18:00 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.60 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e5.0 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "West Sole A",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 26,
+        "labelYOffset": 0,
+        "WaveHeight": "1.6",
+        "Temperature": "",
+        "Tpeak": "",
+        "Tz": "5.0",
+        "Spread": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0174999999999996,
+          51.354333333333336
+        ]
+      },
+      "properties": {
+        "id": "225",
+        "datasource": "EXT",
+        "reference": "225~EXT",
+        "type": "arrow",
+        "scale": 6,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 240,
+        "opacity": 1,
+        "description": "\u003ch3\u003eWeston Bay Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:54 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.70\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.35 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.0 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e3.8 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e241\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e18\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Weston Bay Waverider",
+        "display": "",
+        "labelAlign": "ct",
+        "labelXOffset": 0,
+        "labelYOffset": 21,
+        "WaveHeight": "0.4",
+        "Temperature": "7.7",
+        "Tpeak": "3.8",
+        "Tz": "3.0",
+        "Spread": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4134999999999995,
+          50.62283333333334
+        ]
+      },
+      "properties": {
+        "id": "207",
+        "datasource": "EXT",
+        "reference": "207~EXT",
+        "type": "arrow",
+        "scale": 5,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 153,
+        "opacity": 1,
+        "description": "\u003ch3\u003eWeymouth Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:50 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e10.10\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e0.34 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e6.7 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e15.4 sec\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eDominant (peak) wave direction:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e153\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eWave spread:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e39\u0026deg;\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Weymouth Waverider",
+        "display": "",
+        "labelAlign": "rb",
+        "labelXOffset": 20,
+        "labelYOffset": -20,
+        "WaveHeight": "0.3",
+        "Temperature": "10.1",
+        "Tpeak": "15.4",
+        "Tz": "6.7",
+        "Spread": "39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6075,
+          54.505
+        ]
+      },
+      "properties": {
+        "id": "331",
+        "datasource": "EXT",
+        "reference": "331~EXT",
+        "type": "circle",
+        "scale": 3,
+        "strokeColor": "#000000",
+        "fillColor": "#FF0000",
+        "rotation": 0,
+        "opacity": 1,
+        "description": "\u003ch3\u003eWhitby Waverider\u003cdiv\u003e\u003c/h3\u003eLast data timestamp 17:31 03/01/2020\u003ctable class=\"popuptable\"\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eTemperature:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e7.80\u0026deg;C\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eSignificant Wave Height:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e1.37 m\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cstrong\u003eAverage (zero crossing) wave period:\u0026nbsp;\u003c/strong\u003e\u003c/td\u003e\u003ctd\u003e4.9 sec\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\u003c/div\u003e",
+        "title": "Whitby Waverider",
+        "display": "",
+        "labelAlign": "rm",
+        "labelXOffset": 20,
+        "labelYOffset": 0,
+        "WaveHeight": "1.4",
+        "Temperature": "7.8",
+        "Tpeak": "",
+        "Tz": "4.9",
+        "Spread": ""
+      }
+    }
+  ]
+}

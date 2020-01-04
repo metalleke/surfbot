@@ -1,0 +1,3187 @@
+{
+  "Customer": {
+    "FullName": "Kevin VR",
+    "Login": "metalleke+meetnet@gmail.com"
+  },
+  "Locations": [
+    {
+      "ID": "A2B",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "A2 - Boei"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "A2 - Bouée"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "A2 - Buoy"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directional Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Directional Waverider"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (3.11972222222222 51.3597222222222)"
+    },
+    {
+      "ID": "AKZ",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "ZW-Akkaert"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Akkaert Sud-Ouest"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Akkaert - Southwest"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directionele Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Wave Rider Directionnel"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.81861111111111 51.4161111111111)"
+    },
+    {
+      "ID": "BL7",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Blankenberge - Windmeting"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Blankenberge - Mesure du vent"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Blankenberge - Wind measurement"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Wind: gill - Ultrasone windmeter"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Vent: Gill - Capteur de vent à ultrasons"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Wind: Gill - Ultrasonic wind sensor"
+        }
+      ],
+      "PositionWKT": "POINT (3.10944444444444 51.3152777777778)"
+    },
+    {
+      "ID": "BLK",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Blankenberge"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Blankenberge"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Blankenberge"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij: Radac - Waveguide Tide"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marée: Radac - Waveguide Tide"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide: Radac - Waveguide Tide"
+        }
+      ],
+      "PositionWKT": "POINT (3.11638888888889 51.3105555555556)"
+    },
+    {
+      "ID": "BVH",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Bol Van Heist - Boei"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bol Van Heist - Bouée"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Bol Van Heist - Buoy"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directional Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Directional Waverider"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (3.20055555555556 51.3919444444444)"
+    },
+    {
+      "ID": "KWI",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Kwintebank"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Kwintebank"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Kwintebank"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directionele Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Directional Waverider"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.70583333333333 51.3491666666667)"
+    },
+    {
+      "ID": "MP0",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Wandelaar - Meetpaal"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Wandelaar - Mât de mesure"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Wandelaar - Measuring pile"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij: Radac - Waveguide Server<br /> Luchtdruk: Setra - 270<br /> Temperatuur zeewater: Aanderaa - CT4120<br /> Wind: Vaisala - WAA151 & WAV151"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marée: Radac - Waveguide Server<br />  Vent: Vaisala - WAA151 &amp"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide: Radac - Waveguide Server<br />  Wind: Vaisala - WAA151 &amp"
+        }
+      ],
+      "PositionWKT": "POINT (3.04583333333333 51.3944444444444)"
+    },
+    {
+      "ID": "MP1",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "A2 - Meetpaal"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "A2 - Mât de mesure"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "A2 -  Measuring pile"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij: Radac - Waveguide Server<br />  Luchtdruk: Setra - 270"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marée: Radac - Waveguide Server<br />  Pression Atm: Setra - 270"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide: Radac - Waveguide Server<br />  Atm. Pression: Setra - 270"
+        }
+      ],
+      "PositionWKT": "POINT (3.11833333333333 51.3605555555556)"
+    },
+    {
+      "ID": "MP2",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Appelzak - Meetpaal"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Appelzak - Mât de mesure"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Appelzak - Measuring pile"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "'nl.$Location.Description.MP2'"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "'fr.$Location.Description.MP2'"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "'en.$Location.Description.MP2'"
+        }
+      ],
+      "PositionWKT": "POINT (3.29 51.3627777777778)"
+    },
+    {
+      "ID": "MP3",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Bol Van Heist - Meetpaal"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bol Van Heist -  Mât de mesure"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Bol Van Heist - Measuring pile"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij: Radac - Waveguide Wave<br />  Luchtdruk: Setra - 270<br />  Stroming: Aanderaa - RDCP600"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marée: Radac - Waveguide Wave<br />  Pression Atm: Setra - 270<br />  Courant: Aanderaa - RDCP600"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide: Radac - Waveguide Wave<br />  Atm. Pressure: Setra - 270<br />  Current: Aanderaa - RDCP600"
+        }
+      ],
+      "PositionWKT": "POINT (3.19861111111111 51.3897222222222)"
+    },
+    {
+      "ID": "MP4",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Scheur Wielingen - Meetpaal"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Scheur Wielingen - Mât de mesure"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Scheur Wielingen - Measuring pile"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij: Radac - Waveguide Server<br />  Luchtdruk: Setra - 270<br />  Stroming: Aanderaa - RDCP600<br />  Temperatuur Zeewater: Falmouth - CTS/8001<br />  Wind: Vaisala - WAA151 &amp; WAC151"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marée: Radac - Waveguide Server<br />  Pression Atm.: Setra - 270<br />  Courant: Aanderaa - RDCP600<br />  Température de l'Eau: Falmouth - CTS/8001<br />  Wind: Vaisala - WAA151 &amp"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide: Radac - Waveguide Server<br />  Atm. Pressure: Setra - 270<br />  Current: Aanderaa - RDCP600<br />  Water Temperature: Falmouth - CTS/8001<br />  Wind: Vaisala - WAA151 &amp; WAC151"
+        }
+      ],
+      "PositionWKT": "POINT (3.29861111111111 51.4183333333333)"
+    },
+    {
+      "ID": "MP7",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Westhinder - Meetpaal"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Westhinder - Mât de mesure"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Westhinder - Measuring pile"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij: Radac - Waveguide Wave<br />  Wind: Vaisala - WAA151 & WAV151<br />  Luchtdruk: Setra - 270<br />  Temperatuur Lucht: Vaisala - HMP155<br />  Temperatuur Zeewater: Aanderaa - CT4120"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marée: Radac - Waveguide Wave<br />  Vent: Vaisala - WAA151 & WAV151<br />  Pression Atm.: Setra - 270<br />  Température de l'Air: Vaisala - HMP155<br />  Température de l'Eau: Aanderaa - CT4120"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide: Radac - Waveguide Wave<br />  Wind: Vaisala - WAA151 &amp"
+        }
+      ],
+      "PositionWKT": "POINT (2.43777777777778 51.3886111111111)"
+    },
+    {
+      "ID": "NP7",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Nieuwpoort - Windmeting"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Nieuport - Mesure du vent"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Nieuwpoort - Wind Measurement"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Wind: gill - Ultrasone windmeter"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Vent: Gill - Capteur de vent à ultrasons"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Wind: Gill - Ultrasonic wind sensor"
+        }
+      ],
+      "PositionWKT": "POINT (2.71666666666667 51.1558333333333)"
+    },
+    {
+      "ID": "NPB",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Nieuwpoort - Boei"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Nieuport - BouÃ©e"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Nieuwpoort - Buoy"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Waverider "
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Waverider"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.69083333333333 51.1613888888889)"
+    },
+    {
+      "ID": "NPT",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Nieuwpoort"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Nieuport"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Nieuwpoort"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij: OTT - Maregraaf"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marée OTT - MarÃ©graphe"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide: OTT - Tide gauge"
+        }
+      ],
+      "PositionWKT": "POINT (2.72805555555556 51.1505555555556)"
+    },
+    {
+      "ID": "ODK",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Oostdyckbank"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Oostdyckbank"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Oostdyckbank"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - wavec"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - wavec"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - wavec"
+        }
+      ],
+      "PositionWKT": "POINT (2.46416666666667 51.2747222222222)"
+    },
+    {
+      "ID": "OHM",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Oostende haven maregraaf"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Port d'Ostende marégraphe "
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Ostend harbor maregraph"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij: OTT - Maregraaf"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marée: OTT - Marégraphe"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide: OTT - Tide gauge"
+        }
+      ],
+      "PositionWKT": "POINT (2.92668055555556 51.2342861111111)"
+    },
+    {
+      "ID": "OMP",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Oostende Meteopark"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Ostende - Parc Météorologique"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Ostend Weather station"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Luchtdruk: Vaisala PTB110<br />  Regenmeter: OTT<br />  Relatieve Vochtigheid: Vaisala - HMP155<br />  Temperatuur Grond: PT100<br />  Temperatuur Lucht: Vaisala HMP155<br />  Wind: Obsermet - OMC170<br />  Zonne Straling: CNR4"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Pression Atm.: Vaisala PRB110<br />  Précipitation: OTT<br />  Humidit&eacute"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Atm. Pressure: Vaisala PTB110<br />  Precipitation: OTT<br />  Humidity: Vaisala - HMP155<br />  Soil Temperature: PT100<br />  Air Temperature: Vaisale HMP155<br />  Wind: Obsermet - OMC160<br />  Solar Radiation: CNR4"
+        }
+      ],
+      "PositionWKT": "POINT (2.93014722222222 51.2376638888889)"
+    },
+    {
+      "ID": "ONS",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Oostende Noodstrand"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Ostende Noodstrand"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Ostend Noodstrand"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directional Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Directional Waverider"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.90833333333333 51.2380555555556)"
+    },
+    {
+      "ID": "OOS",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Oostende Oosterstaketsel"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Ostende pallisade est"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Ostend eastern palisade"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directionele Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Wave Rider Directionnel"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.92766666666667 51.2468333333333)"
+    },
+    {
+      "ID": "OPO",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Oostende Poortjes"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Ostende Poortjes"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Ostend Poortens"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directionele Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Wave Rider Directionnel"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.86333333333333 51.2891666666667)"
+    },
+    {
+      "ID": "OS7",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Oostende - Windmeting"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Ostende - Mesure du vent"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Ostend - Wind measurement"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "'nl.$Location.Description.OS7'"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "'fr.$Location.Description.OS7'"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "'en.$Location.Description.OS7'"
+        }
+      ],
+      "PositionWKT": "POINT (2.92416666666667 51.2375)"
+    },
+    {
+      "ID": "OSN",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Oostende Noord"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Ostende Nord"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Ostend North"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directionele Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Wave Rider Directionnel"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.88333333333333 51.3516666666667)"
+    },
+    {
+      "ID": "OST",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Oostende - Boei"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Ostende  - Bouée"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Ostend - Buoy"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directionele Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Wave Rider Directionnel"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.09166666666667 51.2469444444444)"
+    },
+    {
+      "ID": "RAV",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Raversijde"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Raversijde"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Raversijde"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directionele waverider "
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Directional waverider"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.86916666666667 51.2202777777778)"
+    },
+    {
+      "ID": "SWI",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Scheur Wielingen - Boei"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Scheur Wielingen - Bouée"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Scheur Wielingen - Buoy"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Waverider"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (3.30222222222222 51.4013888888889)"
+    },
+    {
+      "ID": "THZ",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Thorntonbank Zuid"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Thorntonbank Sud"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Thorntonbank South"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directionele Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Directionele Waverider"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directionele Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.98694444444444 51.565)"
+    },
+    {
+      "ID": "TRG",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Trapegeer"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Trapegeer"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Trapegeer"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Waverider digital"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.58305555555556 51.1375)"
+    },
+    {
+      "ID": "WDL",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Wandelaar - Boei"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Wandelaar - Bouée"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Wandelaar - Buoy"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Waverider digital"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (3.05055555555556 51.3922222222222)"
+    },
+    {
+      "ID": "WHI",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Westhinder - Boei"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Westhinder - Bouée"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Westhinder - Buoy"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directional Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Directional Waverider"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (2.43583333333333 51.3811111111111)"
+    },
+    {
+      "ID": "ZDI",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Zeebrugge Daminstrumentatie"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Zeebruges - Instrumentation du mur"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Zeebrugge Dam instrumentation"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Luchtdruk: Setra - 270<br />  Neerslag: Obsermet - OMC212<br />  Relatieve Vochtigheid: Rense - HX741-T-01<br />  Temperatuur Lucht: Young - PT100<br />  Wind: Obsermet - OMC170<br />  Zonnestraling: Obsermet - OMC604"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Pressure Atm.: Setra - 270<br />  Précipitation: Obsermet - OMC212<br />  Humidit&eacute"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Atm. Pression: Setra - 270<br />  Precipitation: Obsermet - OMC212<br />  Humidity: Rense - HX741-T-01<br />  Temperature de l'Air: Young - PT100<br />  Wind: Obsermet - OMC170<br />  Solar Radiation: Obsermet - OMC604"
+        }
+      ],
+      "PositionWKT": "POINT (3.17222222222222 51.3541666666667)"
+    },
+    {
+      "ID": "ZHG",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Zwin Hoofdgeul - Boei"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Zwin - Bouée"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Zwin - Buoy"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Directionele waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Directional Waverider"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Directional Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (3.35861111111111 51.3719444444444)"
+    },
+    {
+      "ID": "ZLD",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Zeebrugge Leopold II dam"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Zeebruges - Mur Léopold II"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Zeebrugge Leopold II dam"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij: OTT - Maregraaf"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marée: OTT - Marégraphe"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide: OTT - Tide gauge"
+        }
+      ],
+      "PositionWKT": "POINT (3.20027777777778 51.3463888888889)"
+    },
+    {
+      "ID": "ZMP",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Zeebrugge Meteopark"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Zeebruges - Parc Météorologique"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Zeebrugge Weather Station"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Luchtdruk: Setra - 270<br />  Regenmeter: Thies Clima<br />  Relatieve Vochtigheid: Vaisala - HMM211<br />  Temperatuur Grond: PT100<br />  Temperatuur Lucht: PT100<br />  Temperatuur Natte Bol: Vaisala - HMM211<br />  Wind: Obsermet - OMC170<br />  Straling: CNR1"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Pression Atm.: Setra - 270<br />  Précipitation: Thies Clima<br />  Humidité: Vaisala - HMM211<br />  Température du Sol: PT100<br />  Température de l'Air: PT100<br />  Températur Humide: Vaisala - HMM211<br />  Vent: Obsermet - OMC170<br />  Rayonnement solaire: CNR1"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Atm. Pressure: Setra - 270<br />  Precipitation: Thies Clima<br />  Humidity: Vaisala - HMM211<br />  Soil Temperature: PT100<br />  Air Temperature: PT100<br />  Wet bulb Temperatuur: Vaisala - HMM211<br />  Wind: Obsermet - OMC170<br />  Solar Radiation: CNR1"
+        }
+      ],
+      "PositionWKT": "POINT (3.21916666666667 51.3330555555556)"
+    },
+    {
+      "ID": "ZOK",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Zeebrugge Zandopvangkade"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Port de Zeebruges - Quai de collection de sable"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Port of Zeebrugge Zandopvangkade"
+        }
+      ],
+      "Description": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Boei: Datawell - Waverider"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Bouée: Datawell - Waverider digital"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Buoy: Datawell - Waverider"
+        }
+      ],
+      "PositionWKT": "POINT (3.19277777777778 51.3555555555556)"
+    }
+  ],
+  "Parameters": [
+    {
+      "ID": "GH1",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "10% hoogste golven"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "10% plus hautes vagues"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "10% highest waves"
+        }
+      ],
+      "Unit": "cm",
+      "ParameterTypeID": 1,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "GHA",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Golfhoogte"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Hauteur des vagues"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Wave height"
+        }
+      ],
+      "Unit": "cm",
+      "ParameterTypeID": 1,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "GTZ",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Gemiddelde golfperiode"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Période moyenne des vagues"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Average wave period"
+        }
+      ],
+      "Unit": "s",
+      "ParameterTypeID": 1,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "H01",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "1% hoogste golven"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "1 % Hauteur des vagues"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "1% wave height"
+        }
+      ],
+      "Unit": "cm",
+      "ParameterTypeID": 1,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "HLF",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Hoogte deining"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Hauteur des vagues de période > 10 s"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Height waves with period > 10 s"
+        }
+      ],
+      "Unit": "cm",
+      "ParameterTypeID": 1,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "HUM",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Relatieve vochtigheid"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Humidité relative"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Relative humidity"
+        }
+      ],
+      "Unit": "%",
+      "ParameterTypeID": 3,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "LDR",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Luchtdruk"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Pression atmosphérique"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Air pressure"
+        }
+      ],
+      "Unit": "hPa",
+      "ParameterTypeID": 3,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "NSI",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Neerslag"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Précipitation"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Precipitation"
+        }
+      ],
+      "Unit": "mm",
+      "ParameterTypeID": 3,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "SR3",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Gemiddelde stroomrichting"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": " Direction du courant"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Average current direction"
+        }
+      ],
+      "Unit": "deg",
+      "ParameterTypeID": 2,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "SV3",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Gemiddelde stroomsnelheid"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Vitesse du courant moy."
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Average current velocity"
+        }
+      ],
+      "Unit": "m/s",
+      "ParameterTypeID": 2,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "TGR",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Grondtemperatuur"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Température au sol"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Ground temperature"
+        }
+      ],
+      "Unit": "°C",
+      "ParameterTypeID": 3,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "TLU",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Luchttemperatuur"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Température de l'air"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Air temperature"
+        }
+      ],
+      "Unit": "°C",
+      "ParameterTypeID": 3,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "TNB",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Natte bol temperatuur"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Température de la sphère humide"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Wet bulb Temperature"
+        }
+      ],
+      "Unit": "°C",
+      "ParameterTypeID": 3,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "TZW",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Zeewatertemperatuur"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Température de l'eau de mer"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Sea water temperature"
+        }
+      ],
+      "Unit": "°C",
+      "ParameterTypeID": 3,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "WC1",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Max 1 sec windstoot op 10 m"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "1 sec intensité maximale du vent à 10 m"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Max 1 sec gust of wind at 10 m"
+        }
+      ],
+      "Unit": "m/s",
+      "ParameterTypeID": 4,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "WC3",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Max 3 sec windstoot op 10 m"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "3 sec intensité maximale du vent à 10 m"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Max 3 sec wind speed at 10 m"
+        }
+      ],
+      "Unit": "m/s",
+      "ParameterTypeID": 4,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "WG3",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Max 3 sec windstoot (op sensorhoogte)"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "3 sec intensité maximale du vent (à  l'hauteur de l'instrument)"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Max 3 sec gust of wind (at sensor height)."
+        }
+      ],
+      "Unit": "m/s",
+      "ParameterTypeID": 4,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "WRS",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Gemiddelde windrichting"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Direction moyenne du vent"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Average wind direction"
+        }
+      ],
+      "Unit": "deg",
+      "ParameterTypeID": 4,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "WS5",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij TAW"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marée TAW"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide TAW"
+        }
+      ],
+      "Unit": "cm",
+      "ParameterTypeID": 2,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "WVC",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Gemiddelde windsnelheid op 10 m"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Vitesse moyenne du vent à 10 m"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Average wind speed at 10 m"
+        }
+      ],
+      "Unit": "m/s",
+      "ParameterTypeID": 4,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "WVS",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Gemiddelde windsnelheid (op sensorhoogte)"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Vitesse moyenne du vent (à  l'hauteur de l'instrument)"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Average wind speed (at sensor height)"
+        }
+      ],
+      "Unit": "m/s",
+      "ParameterTypeID": 4,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    },
+    {
+      "ID": "ZON",
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Zonnestraling"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Radiation solaire"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Solar radiation"
+        }
+      ],
+      "Unit": "W/m²",
+      "ParameterTypeID": 3,
+      "MaxValue": 0.0,
+      "MinValue": 0.0
+    }
+  ],
+  "ParameterTypes": {
+    "1": {
+      "ID": 1,
+      "SortOrder": 0,
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Golven"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Vagues"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Waves"
+        }
+      ]
+    },
+    "2": {
+      "ID": 2,
+      "SortOrder": 1,
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Getij en stroming "
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Marées et courants"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Tide and current"
+        }
+      ]
+    },
+    "4": {
+      "ID": 4,
+      "SortOrder": 2,
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Wind"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Vent"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Wind"
+        }
+      ]
+    },
+    "3": {
+      "ID": 3,
+      "SortOrder": 3,
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Meteo"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Météorologie"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Meteo"
+        }
+      ]
+    },
+    "0": {
+      "ID": 0,
+      "SortOrder": 100,
+      "Name": [
+        {
+          "Culture": "nl-BE",
+          "Message": "Varia"
+        },
+        {
+          "Culture": "fr-BE",
+          "Message": "Varia"
+        },
+        {
+          "Culture": "en-GB",
+          "Message": "Varia"
+        }
+      ]
+    }
+  },
+  "AvailableData": [
+    {
+      "ID": "A2BGH1",
+      "Location": "A2B",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "A2BGHA",
+      "Location": "A2B",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "A2BGTZ",
+      "Location": "A2B",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "A2BHLF",
+      "Location": "A2B",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "A2BTZW",
+      "Location": "A2B",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "AKZGH1",
+      "Location": "AKZ",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "AKZGHA",
+      "Location": "AKZ",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "AKZGTZ",
+      "Location": "AKZ",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "AKZHLF",
+      "Location": "AKZ",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "AKZTZW",
+      "Location": "AKZ",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "BL7WRS",
+      "Location": "BL7",
+      "Parameter": "WRS",
+      "CurrentInterval": 10,
+      "Publications": [
+        "safekiting"
+      ]
+    },
+    {
+      "ID": "BL7WVC",
+      "Location": "BL7",
+      "Parameter": "WVC",
+      "CurrentInterval": 10,
+      "Publications": [
+        "safekiting"
+      ]
+    },
+    {
+      "ID": "BLKWS5",
+      "Location": "BLK",
+      "Parameter": "WS5",
+      "CurrentInterval": 5,
+      "Publications": [
+        "hist_data_pub",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "BVHGH1",
+      "Location": "BVH",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "BVHGHA",
+      "Location": "BVH",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "actueleData",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "BVHGTZ",
+      "Location": "BVH",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "BVHHLF",
+      "Location": "BVH",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "BVHTZW",
+      "Location": "BVH",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "KWIGH1",
+      "Location": "KWI",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "KWIGHA",
+      "Location": "KWI",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "actueleData",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "KWIGTZ",
+      "Location": "KWI",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "KWIHLF",
+      "Location": "KWI",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "KWITZW",
+      "Location": "KWI",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP0LDR",
+      "Location": "MP0",
+      "Parameter": "LDR",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP0SR3",
+      "Location": "MP0",
+      "Parameter": "SR3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP0SV3",
+      "Location": "MP0",
+      "Parameter": "SV3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP0TLU",
+      "Location": "MP0",
+      "Parameter": "TLU",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP0TZW",
+      "Location": "MP0",
+      "Parameter": "TZW",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP0WC3",
+      "Location": "MP0",
+      "Parameter": "WC3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP0WRS",
+      "Location": "MP0",
+      "Parameter": "WRS",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP0WS5",
+      "Location": "MP0",
+      "Parameter": "WS5",
+      "CurrentInterval": 5,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP0WVC",
+      "Location": "MP0",
+      "Parameter": "WVC",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP1LDR",
+      "Location": "MP1",
+      "Parameter": "LDR",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP1TZW",
+      "Location": "MP1",
+      "Parameter": "TZW",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP1WS5",
+      "Location": "MP1",
+      "Parameter": "WS5",
+      "CurrentInterval": 5,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP2LDR",
+      "Location": "MP2",
+      "Parameter": "LDR",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP2TZW",
+      "Location": "MP2",
+      "Parameter": "TZW",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP2WS5",
+      "Location": "MP2",
+      "Parameter": "WS5",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP3LDR",
+      "Location": "MP3",
+      "Parameter": "LDR",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP3SR3",
+      "Location": "MP3",
+      "Parameter": "SR3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP3SV3",
+      "Location": "MP3",
+      "Parameter": "SV3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP3TLU",
+      "Location": "MP3",
+      "Parameter": "TLU",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP3TZW",
+      "Location": "MP3",
+      "Parameter": "TZW",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP3WS5",
+      "Location": "MP3",
+      "Parameter": "WS5",
+      "CurrentInterval": 5,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP4LDR",
+      "Location": "MP4",
+      "Parameter": "LDR",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP4SR3",
+      "Location": "MP4",
+      "Parameter": "SR3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP4SV3",
+      "Location": "MP4",
+      "Parameter": "SV3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP4TLU",
+      "Location": "MP4",
+      "Parameter": "TLU",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP4TZW",
+      "Location": "MP4",
+      "Parameter": "TZW",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "MP4WC3",
+      "Location": "MP4",
+      "Parameter": "WC3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP4WRS",
+      "Location": "MP4",
+      "Parameter": "WRS",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP4WS5",
+      "Location": "MP4",
+      "Parameter": "WS5",
+      "CurrentInterval": 5,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP4WVC",
+      "Location": "MP4",
+      "Parameter": "WVC",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP7LDR",
+      "Location": "MP7",
+      "Parameter": "LDR",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP7TLU",
+      "Location": "MP7",
+      "Parameter": "TLU",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP7TZW",
+      "Location": "MP7",
+      "Parameter": "TZW",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP7WC3",
+      "Location": "MP7",
+      "Parameter": "WC3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP7WRS",
+      "Location": "MP7",
+      "Parameter": "WRS",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP7WS5",
+      "Location": "MP7",
+      "Parameter": "WS5",
+      "CurrentInterval": 5,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "MP7WVC",
+      "Location": "MP7",
+      "Parameter": "WVC",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "NP7WRS",
+      "Location": "NP7",
+      "Parameter": "WRS",
+      "CurrentInterval": 10,
+      "Publications": [
+        "safekiting"
+      ]
+    },
+    {
+      "ID": "NP7WVC",
+      "Location": "NP7",
+      "Parameter": "WVC",
+      "CurrentInterval": 10,
+      "Publications": [
+        "safekiting"
+      ]
+    },
+    {
+      "ID": "NPBGH1",
+      "Location": "NPB",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "NPBGHA",
+      "Location": "NPB",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "NPBGTZ",
+      "Location": "NPB",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "NPBH01",
+      "Location": "NPB",
+      "Parameter": "H01",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "NPBHLF",
+      "Location": "NPB",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "NPTWS5",
+      "Location": "NPT",
+      "Parameter": "WS5",
+      "CurrentInterval": 5,
+      "Publications": [
+        "actueleData",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ODKGH1",
+      "Location": "ODK",
+      "Parameter": "GH1",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "ODKGHA",
+      "Location": "ODK",
+      "Parameter": "GHA",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "OHMWS5",
+      "Location": "OHM",
+      "Parameter": "WS5",
+      "CurrentInterval": 5,
+      "Publications": [
+        "actueleData",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OMPHUM",
+      "Location": "OMP",
+      "Parameter": "HUM",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OMPNSI",
+      "Location": "OMP",
+      "Parameter": "NSI",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OMPTGR",
+      "Location": "OMP",
+      "Parameter": "TGR",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OMPTLU",
+      "Location": "OMP",
+      "Parameter": "TLU",
+      "CurrentInterval": 10,
+      "Publications": [
+        "actueleData",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OMPWC3",
+      "Location": "OMP",
+      "Parameter": "WC3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OMPWRS",
+      "Location": "OMP",
+      "Parameter": "WRS",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub",
+        "safekiting"
+      ]
+    },
+    {
+      "ID": "OMPWVC",
+      "Location": "OMP",
+      "Parameter": "WVC",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub",
+        "safekiting"
+      ]
+    },
+    {
+      "ID": "OMPZON",
+      "Location": "OMP",
+      "Parameter": "ZON",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ONSGH1",
+      "Location": "ONS",
+      "Parameter": "GH1",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "ONSGHA",
+      "Location": "ONS",
+      "Parameter": "GHA",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "ONSGTZ",
+      "Location": "ONS",
+      "Parameter": "GTZ",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "ONSHLF",
+      "Location": "ONS",
+      "Parameter": "HLF",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "ONSTZW",
+      "Location": "ONS",
+      "Parameter": "TZW",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "OOSGH1",
+      "Location": "OOS",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OOSGHA",
+      "Location": "OOS",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "actueleData",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OOSGTZ",
+      "Location": "OOS",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OOSHLF",
+      "Location": "OOS",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OOSTZW",
+      "Location": "OOS",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "actueleData",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OPOGH1",
+      "Location": "OPO",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OPOGHA",
+      "Location": "OPO",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OPOGTZ",
+      "Location": "OPO",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OPOHLF",
+      "Location": "OPO",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OPOTZW",
+      "Location": "OPO",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OS7WG3",
+      "Location": "OS7",
+      "Parameter": "WG3",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "OS7WRS",
+      "Location": "OS7",
+      "Parameter": "WRS",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "OS7WVS",
+      "Location": "OS7",
+      "Parameter": "WVS",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "OSNGH1",
+      "Location": "OSN",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OSNGHA",
+      "Location": "OSN",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OSNGTZ",
+      "Location": "OSN",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OSNHLF",
+      "Location": "OSN",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OSNTZW",
+      "Location": "OSN",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "OSTGH1",
+      "Location": "OST",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "OSTGHA",
+      "Location": "OST",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "OSTGTZ",
+      "Location": "OST",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "OSTHLF",
+      "Location": "OST",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "OSTTZW",
+      "Location": "OST",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "RAVGH1",
+      "Location": "RAV",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "RAVGHA",
+      "Location": "RAV",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "RAVGTZ",
+      "Location": "RAV",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "RAVHLF",
+      "Location": "RAV",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "RAVTZW",
+      "Location": "RAV",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "SWIGH1",
+      "Location": "SWI",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "SWIGHA",
+      "Location": "SWI",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "actueleData",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "SWIGTZ",
+      "Location": "SWI",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "SWIHLF",
+      "Location": "SWI",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "SWITZW",
+      "Location": "SWI",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "THZGH1",
+      "Location": "THZ",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "THZGHA",
+      "Location": "THZ",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "THZGTZ",
+      "Location": "THZ",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "THZHLF",
+      "Location": "THZ",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "THZTZW",
+      "Location": "THZ",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "TRGGH1",
+      "Location": "TRG",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "TRGGHA",
+      "Location": "TRG",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "TRGGTZ",
+      "Location": "TRG",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "TRGHLF",
+      "Location": "TRG",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "WDLGH1",
+      "Location": "WDL",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "WDLGHA",
+      "Location": "WDL",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "WDLGTZ",
+      "Location": "WDL",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "WDLH01",
+      "Location": "WDL",
+      "Parameter": "H01",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "WDLHLF",
+      "Location": "WDL",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "WDLTZW",
+      "Location": "WDL",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "WHIGH1",
+      "Location": "WHI",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "WHIGHA",
+      "Location": "WHI",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "actueleData",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "WHIGTZ",
+      "Location": "WHI",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "WHIHLF",
+      "Location": "WHI",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "WHITZW",
+      "Location": "WHI",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "ZDIHUM",
+      "Location": "ZDI",
+      "Parameter": "HUM",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "ZDILDR",
+      "Location": "ZDI",
+      "Parameter": "LDR",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZDINSI",
+      "Location": "ZDI",
+      "Parameter": "NSI",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZDITLU",
+      "Location": "ZDI",
+      "Parameter": "TLU",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZDIWC1",
+      "Location": "ZDI",
+      "Parameter": "WC1",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZDIWRS",
+      "Location": "ZDI",
+      "Parameter": "WRS",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub",
+        "safekiting"
+      ]
+    },
+    {
+      "ID": "ZDIWVC",
+      "Location": "ZDI",
+      "Parameter": "WVC",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub",
+        "safekiting"
+      ]
+    },
+    {
+      "ID": "ZDIZON",
+      "Location": "ZDI",
+      "Parameter": "ZON",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZHGGH1",
+      "Location": "ZHG",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZHGGHA",
+      "Location": "ZHG",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZHGGTZ",
+      "Location": "ZHG",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZHGHLF",
+      "Location": "ZHG",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZHGTZW",
+      "Location": "ZHG",
+      "Parameter": "TZW",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZLDWS5",
+      "Location": "ZLD",
+      "Parameter": "WS5",
+      "CurrentInterval": 5,
+      "Publications": [
+        "actueleData",
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZMPHUM",
+      "Location": "ZMP",
+      "Parameter": "HUM",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZMPLDR",
+      "Location": "ZMP",
+      "Parameter": "LDR",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZMPNSI",
+      "Location": "ZMP",
+      "Parameter": "NSI",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZMPTGR",
+      "Location": "ZMP",
+      "Parameter": "TGR",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZMPTLU",
+      "Location": "ZMP",
+      "Parameter": "TLU",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZMPTNB",
+      "Location": "ZMP",
+      "Parameter": "TNB",
+      "CurrentInterval": 0,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "ZMPWC1",
+      "Location": "ZMP",
+      "Parameter": "WC1",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZMPWRS",
+      "Location": "ZMP",
+      "Parameter": "WRS",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZMPWVC",
+      "Location": "ZMP",
+      "Parameter": "WVC",
+      "CurrentInterval": 10,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZMPZON",
+      "Location": "ZMP",
+      "Parameter": "ZON",
+      "CurrentInterval": 10,
+      "Publications": [
+        "hist_data_pub"
+      ]
+    },
+    {
+      "ID": "ZOKGH1",
+      "Location": "ZOK",
+      "Parameter": "GH1",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZOKGHA",
+      "Location": "ZOK",
+      "Parameter": "GHA",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZOKGTZ",
+      "Location": "ZOK",
+      "Parameter": "GTZ",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    },
+    {
+      "ID": "ZOKHLF",
+      "Location": "ZOK",
+      "Parameter": "HLF",
+      "CurrentInterval": 30,
+      "Publications": [
+        "live_data_pub"
+      ]
+    }
+  ],
+  "ProjectionWKT": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"
+}
