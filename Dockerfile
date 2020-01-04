@@ -9,6 +9,7 @@ WORKDIR /build
 COPY /cmd .
 
 RUN go get github.com/go-telegram-bot-api/telegram-bot-api
+RUN go test
 RUN go build -o surfbot
 
 WORKDIR /dist

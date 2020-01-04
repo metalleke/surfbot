@@ -57,8 +57,10 @@ func main() {
 		case "currentdata":
 			msg.Text = "test"
 			//msg.Text = displayCurrentData(currentData(token))
-		case "safekite":
-			msg.Text = displayCurrentData(catalog, currentDataForId(validateToken(token), []string{"BL7WRS"}))
+		case "safekite": {
+			data := currentDataForId(validateToken(token), []string{"BL7WVC"})
+			msg.Text = displayCurrentData(catalog, data) + " (" + MeterePerSecondToBeaufortScale(data["BL7WVC"].Value) + ")"
+		}
 		case "cefas": {
 			current := getcurrent()
 			id := update.Message.CommandArguments()
