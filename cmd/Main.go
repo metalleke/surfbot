@@ -1,43 +1,38 @@
 package main
 
 import (
-	"fmt"
 	"github.com/go-telegram-bot-api/telegram-bot-api"
 	"log"
 	"os"
 	"strconv"
 )
 
-const HELP = `
-help: this message
-locations: list of all locations
-availabledata: list of all data points
-currentdata <ID>: the current data of a buoy
-getdata <ID> <FROM> <TO>: returns the data of a specified buoy in a time range
-safekite: current wind value for safe kiting
-cefas <ID>: current cefas data
-cefasbuoys: list of all cefas buoys
-`
-
 func main() {
-	// Start the bot
-	bot, err := tgbotapi.NewBotAPI(os.Getenv("telegram.token"))
+	// Start the webserver
+
+	// Start the telegramBot
+	telegramBot, err := tgbotapi.NewBotAPI(os.Getenv("telegram.token"))
 	if err != nil {
 		log.Panic(err)
 	}
 
 	if debug, found := os.LookupEnv("telegram.debug"); found {
-		bot.Debug, _ = strconv.ParseBool(debug)
+		telegramBot.Debug, _ = strconv.ParseBool(debug)
 	}
 
-	log.Printf("Authorized on account %s", bot.Self.UserName)
+	log.Printf("Authorized on account %s", telegramBot.Self.UserName)
 
 	token, catalog := initialiseMeetnet()
+	northSeaSurfBot := NorthSeaSurfBot{
+		Cache: BotCache{
+			TokenCache:   token,
+			CatalogCache: catalog,
+		}}
 
 	u := tgbotapi.NewUpdate(0)
 	u.Timeout = 60
 
-	updates, err := bot.GetUpdatesChan(u)
+	updates, err := telegramBot.GetUpdatesChan(u)
 
 	for update := range updates {
 		if update.Message == nil {
@@ -48,50 +43,10 @@ func main() {
 			continue
 		}
 
-		msg := tgbotapi.NewMessage(update.Message.Chat.ID, "")
-
-		// Extract the command from the Message.
-		switch update.Message.Command() {
-		case "help":
-			msg.Text = HELP
-		case "locations":
-			msg.Text = displayLocations(catalog.Locations)
-		case "availabledata":
-			msg.Text = displayAvailableData(catalog.AvailableData)
-		case "currentdata":
-			msg.Text = "test"
-			//msg.Text = displayCurrentData(currentData(token))
-		case "safekite":
-			{
-				id := "BL7WVC"
-				data := currentDataForId(validateToken(token), []string{id})[id]
-				beaufort := MeterePerSecondToBeaufortScale(data.Value)
-				text := "Wind: " + fmt.Sprintf("%.2f", data.Value) + "m/s (" + DisplayBeaufort(beaufort) + ")\n"
-				if safeToKite(beaufort) {
-					text += "It is safe to kite"
-				} else {
-					text += "It is not safe to kite"
-				}
-				msg.Text = text
+		for _, message := range northSeaSurfBot.processCommand(update.Message) {
+			if _, err := telegramBot.Send(message); err != nil {
+				log.Panic(err)
 			}
-		case "cefas":
-			{
-				current := getcurrent()
-				id := update.Message.CommandArguments()
-				if feature, ok := current[id]; ok {
-					msg.Text = displayCurrentWaveHeight(feature)
-				} else {
-					msg.Text = "Could not find buoy: " + id
-				}
-			}
-		case "cefasbuoys":
-			msg.Text = displayBuoys(getcurrent())
-		default:
-			msg.Text = "I don't know that command"
-		}
-
-		if _, err := bot.Send(msg); err != nil {
-			log.Panic(err)
 		}
 	}
 }
