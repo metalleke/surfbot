@@ -9,6 +9,7 @@ import (
 
 const MEETNET_API_URL = "https://api.meetnetvlaamsebanken.be"
 const DEFAULT_LOCALE = "en-GB"
+const SAFE_KITE_ID = "BL7WVC"
 
 //
 
@@ -28,12 +29,24 @@ func (t Token) isExpired() bool {
 	return expires.Add(10 * time.Second).After(time.Now())
 }
 
+func (t Token) validate() Token {
+	if t.isExpired() {
+		return login(t.UserName, t.Password)
+	}
+
+	return t
+}
+
 type Location struct {
 	Id            string        `json:"ID"`
 	Position      string        `json:"PositionWKT"`
 	Name          []Translation `json:"Name"`
 	Description   []Translation `json:"Description"`
 	AvailableData []AvailableData
+}
+
+func (t Location) format(locale string) string {
+	return translate(t.Name, locale)
 }
 
 type Parameter struct {
@@ -80,17 +93,17 @@ type CurrentData struct {
 	Value     float32 `json:"Value"`
 }
 
+func (t CurrentData) locationId() string {
+	return t.Id[0:3]
+}
+
+func (t CurrentData) unitId() string  {
+	return t.Id[(len(t.Id) - 3):len(t.Id)]
+}
+
 type CurrentDateResult struct {
 }
 
-// Helpers
-func validateToken(token Token) Token {
-	if token.isExpired() {
-		return login(token.UserName, token.Password)
-	}
-
-	return token
-}
 
 // Displays
 func displayLocations(locations map[string]Location) string {
@@ -108,10 +121,9 @@ func displayLocations(locations map[string]Location) string {
 func displayCurrentData(catalog Catalog, data map[string]CurrentData) string {
 	result := ""
 	for _, aData := range data {
-		name := aData.Id
-		locationId := name[0:3]
-		unitId := name[(len(aData.Id) - 3):len(aData.Id)]
-		location := translate(catalog.Locations[locationId].Name, DEFAULT_LOCALE)
+		locationId := aData.locationId()
+		unitId := aData.unitId()
+		location := catalog.Locations[locationId].format(DEFAULT_LOCALE)
 		value := fmt.Sprintf("%.2f", aData.Value)
 		unit := catalog.Parameters[unitId].Unit
 
@@ -133,8 +145,4 @@ func translate(translations []Translation, locale string) string {
 
 func safeToKite(beaufort int) bool {
 	return beaufort < 7
-}
-
-func formatLocation(location Location, locale string) string {
-	return translate(location.Name, locale)
 }

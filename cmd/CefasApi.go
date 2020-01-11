@@ -5,12 +5,16 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"strconv"
+	"time"
 )
 
 // Constants
 const CEFAS_API_URL = "http://wavenet.cefas.co.uk/Map/GetCurrent"
+const FEATURE_CACHE_KEY = "FEATURES"
 
-// Types
+//
+
 type FeaturesCollection struct {
 	Features []Feature `json:"features"`
 }
@@ -22,10 +26,10 @@ type Feature struct {
 func (t Feature) display() string {
 	return t.Properties.Title + "\n" +
 		"Significant wave height: " + t.Properties.WaveHeight + " m\n" +
-		"Tpeak: " + t.Properties.WaveHeight + " s\n" +
-		"Tz: " + t.Properties.WaveHeight + " s\n" +
-		"Peak direction: " + t.Properties.WaveHeight + " °\n" +
-		"Spread: " + t.Properties.WaveHeight + " °\n" +
+		"Tpeak: " + t.Properties.Tpeak + " s\n" +
+		"Tz: " + t.Properties.Tz + " s\n" +
+		"Peak direction: " + t.Properties.Tz + " °\n" +
+		"Spread: " + strconv.Itoa(t.Properties.Rotation) + " °\n" +
 		"Temperature: " + t.Properties.Temperature + " °C\n"
 }
 
@@ -44,8 +48,14 @@ type Properties struct {
 	Rotation    int    `json:"rotation"`
 }
 
-// Retrieve data
-func getcurrent() map[string]Feature {
+// Cefas API
+func getcurrent(bot *NorthSeaSurfBot) map[string]Feature {
+	cachedResult, found := bot.DataCache.Remote.Get(FEATURE_CACHE_KEY)
+
+	if found {
+		return cachedResult.(map[string]Feature)
+	}
+
 	resp, err := http.Get(CEFAS_API_URL)
 
 	if err != nil {
@@ -66,6 +76,8 @@ func getcurrent() map[string]Feature {
 	for i := 0; i < len(features.Features); i++ {
 		result[features.Features[i].Properties.Id] = features.Features[i]
 	}
+
+	bot.DataCache.Remote.Set(FEATURE_CACHE_KEY, result, 5*time.Minute)
 
 	return result
 }

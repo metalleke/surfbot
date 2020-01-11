@@ -1,9 +1,14 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"github.com/go-telegram-bot-api/telegram-bot-api"
+	"github.com/patrickmn/go-cache"
+	"net/http"
 )
+
+// Constants
 
 const HELP = `
 help: this message
@@ -19,17 +24,51 @@ cefasbuoys: list of all cefas buoys
 //
 
 type NorthSeaSurfBot struct {
-	Cache	BotCache
+	Config    Config
+	DataCache DataCache
 }
 
-type BotCache struct {
-	TokenCache		Token
-	CatalogCache	Catalog
+type Config struct {
+	currentToken Token
+}
+
+func (t Config) getToken() Token {
+	return t.currentToken.validate()
+}
+
+type DataCache struct {
+	Remote *cache.Cache
+}
+
+// HTTP API
+func (t NorthSeaSurfBot) Hello(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("Hello, I am the North Sea surf bot."))
+}
+
+func (t NorthSeaSurfBot) Current(w http.ResponseWriter, r *http.Request) {
+	js, err := json.Marshal(getcurrent(&t))
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
+}
+
+func (t NorthSeaSurfBot) Cache(w http.ResponseWriter, r *http.Request) {
+	js, err := json.Marshal(t.DataCache.Remote.Items())
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
 }
 
 // Commands
-
-func (t NorthSeaSurfBot) processCommand(input *tgbotapi.Message) []tgbotapi.MessageConfig {
+func (t NorthSeaSurfBot) processCommand(bot *NorthSeaSurfBot, input *tgbotapi.Message) []tgbotapi.MessageConfig {
 	switch input.Command() {
 	case "help":
 		return []tgbotapi.MessageConfig{
@@ -37,11 +76,11 @@ func (t NorthSeaSurfBot) processCommand(input *tgbotapi.Message) []tgbotapi.Mess
 		}
 	case "locations":
 		return []tgbotapi.MessageConfig{
-			tgbotapi.NewMessage(input.Chat.ID, displayLocations(t.Cache.CatalogCache.Locations)),
+			tgbotapi.NewMessage(input.Chat.ID, displayLocations(catalog(bot).Locations)),
 		}
 	case "availabledata":
 		return []tgbotapi.MessageConfig{
-			tgbotapi.NewMessage(input.Chat.ID, displayAvailableData(t.Cache.CatalogCache.AvailableData)),
+			tgbotapi.NewMessage(input.Chat.ID, displayAvailableData(catalog(bot).AvailableData)),
 		}
 	case "currentdata":
 		return []tgbotapi.MessageConfig{
@@ -51,7 +90,7 @@ func (t NorthSeaSurfBot) processCommand(input *tgbotapi.Message) []tgbotapi.Mess
 	case "safekite":
 		{
 			id := "BL7WVC"
-			data := currentDataForId(validateToken(t.Cache.TokenCache), []string{id})[id]
+			data := currentDataForId(bot, id)
 			beaufort := MeterePerSecondToBeaufortScale(data.Value)
 			text := "Wind: " + fmt.Sprintf("%.2f", data.Value) + "m/s (" + DisplayBeaufort(beaufort) + ")\n"
 			if safeToKite(beaufort) {
@@ -66,7 +105,7 @@ func (t NorthSeaSurfBot) processCommand(input *tgbotapi.Message) []tgbotapi.Mess
 		}
 	case "cefas":
 		{
-			current := getcurrent()
+			current := getcurrent(bot)
 			id := input.CommandArguments()
 			if feature, ok := current[id]; ok {
 				return []tgbotapi.MessageConfig{
@@ -74,13 +113,13 @@ func (t NorthSeaSurfBot) processCommand(input *tgbotapi.Message) []tgbotapi.Mess
 				}
 			} else {
 				return []tgbotapi.MessageConfig{
-					tgbotapi.NewMessage(input.Chat.ID, "Could not find buoy: " + id),
+					tgbotapi.NewMessage(input.Chat.ID, "Could not find buoy: "+id),
 				}
 			}
 		}
 	case "cefasbuoys":
 		return []tgbotapi.MessageConfig{
-			tgbotapi.NewMessage(input.Chat.ID, displayBuoys(getcurrent())),
+			tgbotapi.NewMessage(input.Chat.ID, displayBuoys(getcurrent(bot))),
 		}
 	default:
 		return []tgbotapi.MessageConfig{

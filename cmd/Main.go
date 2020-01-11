@@ -2,14 +2,15 @@ package main
 
 import (
 	"github.com/go-telegram-bot-api/telegram-bot-api"
+	"github.com/patrickmn/go-cache"
 	"log"
+	"net/http"
 	"os"
 	"strconv"
+	"time"
 )
 
 func main() {
-	// Start the webserver
-
 	// Start the telegramBot
 	telegramBot, err := tgbotapi.NewBotAPI(os.Getenv("telegram.token"))
 	if err != nil {
@@ -22,13 +23,32 @@ func main() {
 
 	log.Printf("Authorized on account %s", telegramBot.Self.UserName)
 
-	token, catalog := initialiseMeetnet()
-	northSeaSurfBot := NorthSeaSurfBot{
-		Cache: BotCache{
-			TokenCache:   token,
-			CatalogCache: catalog,
-		}}
+	// Start the north sea surf bot
+	token := initialiseMeetnet()
 
+	bot := NorthSeaSurfBot{
+		Config: Config{
+			currentToken: token,
+		},
+		DataCache: DataCache{
+			Remote: cache.New(5*time.Minute, 10*time.Minute),
+		},
+	}
+
+	// Start the HTTP API
+	http.HandleFunc("/", bot.Hello)
+	http.HandleFunc("/health", bot.Hello)
+	http.HandleFunc("/api/config", bot.Hello)
+	http.HandleFunc("/api/meetnet/catalog", bot.Hello)
+	http.HandleFunc("/api/cefas/current", bot.Current)
+	http.HandleFunc("/api/cache", bot.Cache)
+
+	go func() {
+		log.Println("Starting http server on port 8080")
+		http.ListenAndServe(":8080", nil)
+	}()
+
+	// Respond to commands
 	u := tgbotapi.NewUpdate(0)
 	u.Timeout = 60
 
@@ -43,7 +63,7 @@ func main() {
 			continue
 		}
 
-		for _, message := range northSeaSurfBot.processCommand(update.Message) {
+		for _, message := range bot.processCommand(&bot, update.Message) {
 			if _, err := telegramBot.Send(message); err != nil {
 				log.Panic(err)
 			}
@@ -51,19 +71,10 @@ func main() {
 	}
 }
 
-func initialiseMeetnet() (Token, Catalog) {
-	// Initialise meetnet data
-	log.Println("Initializing meetnet data")
+func initialiseMeetnet() Token {
+	log.Println("Retrieving meetnet token")
 
-	token := login(os.Getenv("meetnet.user"), os.Getenv("meetnet.pass"))
-	catalog := catalog(token)
-
-	log.Println("Locations: ", catalog.Locations)
-	log.Println("Parameters: ", catalog.Parameters)
-	log.Println("ParameterTypes: ", catalog.ParameterTypes)
-	log.Println("AvailableData: ", catalog.AvailableData)
-
-	return token, catalog
+	return login(os.Getenv("meetnet.user"), os.Getenv("meetnet.pass"))
 }
 
 func displayAvailableData(data map[string]AvailableData) string {

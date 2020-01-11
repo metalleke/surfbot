@@ -7,7 +7,15 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"time"
 )
+
+// Constants
+
+const CATALOG_CACHE_KEY = "CATALOG"
+const CURRENT_DATA_KEY  = "CURRENTDATA"
+
+// Meetnet API v2
 
 func login(username string, password string) Token {
 	resp, err := http.PostForm(MEETNET_API_URL+"/Token", url.Values{
@@ -33,10 +41,16 @@ func login(username string, password string) Token {
 	return result
 }
 
-func catalog(token Token) Catalog {
+func catalog(bot *NorthSeaSurfBot) Catalog {
+	cachedResult, found := bot.DataCache.Remote.Get(CATALOG_CACHE_KEY)
+
+	if found {
+		return cachedResult.(Catalog)
+	}
+
 	client := &http.Client{}
 	req, _ := http.NewRequest("GET", MEETNET_API_URL+"/V2/catalog", nil)
-	req.Header.Add("Authorization", "Bearer "+token.AccessToken)
+	req.Header.Add("Authorization", "Bearer "+bot.Config.getToken().AccessToken)
 	resp, err := client.Do(req)
 
 	if err != nil {
@@ -81,20 +95,28 @@ func catalog(token Token) Catalog {
 		AvailableData:  availableDataMap,
 	}
 
+	bot.DataCache.Remote.Set(CATALOG_CACHE_KEY, result, 5*time.Minute)
+
 	return result
 }
 
-func currentDataForId(token Token, ids []string) map[string]CurrentData {
+func currentDataForIds(bot *NorthSeaSurfBot, ids []string) map[string]CurrentData {
 	var jsonStr = ""
 	if ids != nil && 0 < len(ids) {
 		values := map[string][]string{"Ids": ids}
-		idParam, _ :=json.Marshal(values)
+		idParam, _ := json.Marshal(values)
 		jsonStr = string(idParam)
+	}
+
+	cachedResult, found := bot.DataCache.Remote.Get(CURRENT_DATA_KEY + jsonStr)
+
+	if found {
+		return cachedResult.(map[string]CurrentData)
 	}
 
 	client := &http.Client{}
 	req, _ := http.NewRequest("POST", MEETNET_API_URL+"/V2/currentData", bytes.NewBufferString(jsonStr))
-	req.Header.Add("Authorization", "Bearer "+token.AccessToken)
+	req.Header.Add("Authorization", "Bearer "+bot.Config.getToken().AccessToken)
 
 	resp, err := client.Do(req)
 
@@ -117,5 +139,15 @@ func currentDataForId(token Token, ids []string) map[string]CurrentData {
 		result[currentData[i].Id] = currentData[i]
 	}
 
+	bot.DataCache.Remote.Set(CURRENT_DATA_KEY + jsonStr, result, 5*time.Minute)
+
+
 	return result
+}
+
+func currentDataForId(bot *NorthSeaSurfBot, id string) CurrentData {
+	ids := []string{id}
+	result := currentDataForIds(bot, ids)
+
+	return result[id]
 }
