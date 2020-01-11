@@ -56,7 +56,7 @@ func (t NorthSeaSurfBot) Current(w http.ResponseWriter, r *http.Request) {
 	w.Write(js)
 }
 
-func (t NorthSeaSurfBot) Cache(w http.ResponseWriter, r *http.Request) {
+func (t NorthSeaSurfBot) ListCache(w http.ResponseWriter, r *http.Request) {
 	js, err := json.Marshal(t.DataCache.Remote.Items())
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -65,6 +65,10 @@ func (t NorthSeaSurfBot) Cache(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(js)
+}
+
+func (t NorthSeaSurfBot) FlushCache(w http.ResponseWriter, r *http.Request) {
+	t.DataCache.Remote.Flush()
 }
 
 // Commands

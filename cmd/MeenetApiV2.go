@@ -151,3 +151,16 @@ func currentDataForId(bot *NorthSeaSurfBot, id string) CurrentData {
 
 	return result[id]
 }
+
+
+func displayAvailableData(data map[string]AvailableData) string {
+	result := ""
+	for _, aData := range data {
+		id := aData.Id
+		location := ""
+		parameter := ""
+
+		result += id + " at " + location + " " + parameter + "\n"
+	}
+	return result
+}
