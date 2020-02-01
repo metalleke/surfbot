@@ -45,6 +45,18 @@ func (t NorthSeaSurfBot) Hello(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Hello, I am the North Sea surf bot."))
 }
 
+
+func (t NorthSeaSurfBot) TokenExpires(w http.ResponseWriter, r *http.Request) {
+	js, err := json.Marshal(&t.Config.currentToken.Expires)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
+}
+
 func (t NorthSeaSurfBot) Current(w http.ResponseWriter, r *http.Request) {
 	js, err := json.Marshal(getcurrent(&t))
 	if err != nil {

@@ -78,10 +78,16 @@ func initialiseBot(token Token)  *NorthSeaSurfBot {
 
 func initialiseHttpServer(bot *NorthSeaSurfBot)  {
 	http.HandleFunc("/", bot.Hello)
+
 	http.HandleFunc("/health", bot.Hello)
+
 	http.HandleFunc("/api/config", bot.Hello)
+
 	http.HandleFunc("/api/meetnet/catalog", bot.Hello)
+	http.HandleFunc("/api/meetnet/tokenexpires", bot.TokenExpires)
+
 	http.HandleFunc("/api/cefas/current", bot.Current)
+
 	http.HandleFunc("/api/cache", bot.ListCache)
 	http.HandleFunc("/api/cache/flush", bot.FlushCache)
 

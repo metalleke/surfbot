@@ -14,17 +14,16 @@ const SAFE_KITE_ID = "BL7WVC"
 //
 
 type Token struct {
-	Expires     string `json:".expires"`
-	Issued      string `json:".issued"`
-	AccessToken string `json:"access_token"`
-	ExpiresIn   string `json:"expires_in"`
-	TokenType   string `json:"token_type"`
+	Expires     string	`json:".expires"`
+	AccessToken string	`json:"access_token"`
+	ExpiresIn   int		`json:"expires_in"`
+	TokenType   string	`json:"token_type"`
 	UserName    string
 	Password    string
 }
 
 func (t Token) isExpired() bool {
-	expires, _ := time.Parse(time.RFC1123, "Thu, 02 Jan 2020 20:22:36 GMT")
+	expires, _ := time.Parse(time.RFC1123, t.Expires)
 
 	return expires.Add(10 * time.Second).After(time.Now())
 }
@@ -38,10 +37,10 @@ func (t Token) validate() Token {
 }
 
 type Location struct {
-	Id            string        `json:"ID"`
-	Position      string        `json:"PositionWKT"`
-	Name          []Translation `json:"Name"`
-	Description   []Translation `json:"Description"`
+	Id            string 			`json:"ID"`
+	Position      string			`json:"PositionWKT"`
+	Name          []Translation		`json:"Name"`
+	Description   []Translation		`json:"Description"`
 	AvailableData []AvailableData
 }
 
