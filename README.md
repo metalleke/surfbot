@@ -4,6 +4,6 @@
 ## Running container
 
 * telegram.token
+* telegram.debug
 * meetnet.pass
 * meetnet.user
-* telegram.debug

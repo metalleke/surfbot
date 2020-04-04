@@ -25,7 +25,7 @@ type Token struct {
 func (t Token) isExpired() bool {
 	expires, _ := time.Parse(time.RFC1123, t.Expires)
 
-	return expires.Add(10 * time.Second).After(time.Now())
+	return expires.UTC().Add(10 * time.Second).Before(time.Now().UTC())
 }
 
 func (t Token) validate() Token {
