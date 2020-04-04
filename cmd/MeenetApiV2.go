@@ -13,7 +13,7 @@ import (
 // Constants
 
 const CATALOG_CACHE_KEY = "CATALOG"
-const CURRENT_DATA_KEY  = "CURRENTDATA"
+const CURRENT_DATA_KEY = "CURRENTDATA"
 
 // Meetnet API v2
 
@@ -37,6 +37,8 @@ func login(username string, password string) Token {
 
 	var result Token
 	json.Unmarshal(body, &result)
+
+	result.Password = password
 
 	return result
 }
@@ -139,8 +141,7 @@ func currentDataForIds(bot *NorthSeaSurfBot, ids []string) map[string]CurrentDat
 		result[currentData[i].Id] = currentData[i]
 	}
 
-	bot.DataCache.Remote.Set(CURRENT_DATA_KEY + jsonStr, result, 5*time.Minute)
-
+	bot.DataCache.Remote.Set(CURRENT_DATA_KEY+jsonStr, result, 5*time.Minute)
 
 	return result
 }
@@ -151,7 +152,6 @@ func currentDataForId(bot *NorthSeaSurfBot, id string) CurrentData {
 
 	return result[id]
 }
-
 
 func displayAvailableData(data map[string]AvailableData) string {
 	result := ""
