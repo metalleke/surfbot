@@ -64,9 +64,9 @@ var SCALES = [...]BeaufortScale{
 	},
 }
 
-func MeterePerSecondToBeaufortScale(meterePerSecond float32) int {
+func MeterPerSecondToBeaufortScale(meterPerSecond float32) int {
 	for _, scale := range SCALES {
-		if isBetween(scale, meterePerSecond) {
+		if isBetween(scale, meterPerSecond) {
 			return scale.Bft
 		}
 	}

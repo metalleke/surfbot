@@ -14,10 +14,10 @@ const SAFE_KITE_ID = "BL7WVC"
 //
 
 type Token struct {
-	Expires     string	`json:".expires"`
-	AccessToken string	`json:"access_token"`
-	ExpiresIn   int		`json:"expires_in"`
-	TokenType   string	`json:"token_type"`
+	Expires     string `json:".expires"`
+	AccessToken string `json:"access_token"`
+	ExpiresIn   int    `json:"expires_in"`
+	TokenType   string `json:"token_type"`
 	UserName    string
 	Password    string
 }
@@ -37,10 +37,10 @@ func (t Token) validate() Token {
 }
 
 type Location struct {
-	Id            string 			`json:"ID"`
-	Position      string			`json:"PositionWKT"`
-	Name          []Translation		`json:"Name"`
-	Description   []Translation		`json:"Description"`
+	Id            string        `json:"ID"`
+	Position      string        `json:"PositionWKT"`
+	Name          []Translation `json:"Name"`
+	Description   []Translation `json:"Description"`
 	AvailableData []AvailableData
 }
 
@@ -96,13 +96,18 @@ func (t CurrentData) locationId() string {
 	return t.Id[0:3]
 }
 
-func (t CurrentData) unitId() string  {
+func (t CurrentData) unitId() string {
 	return t.Id[(len(t.Id) - 3):len(t.Id)]
 }
 
 type CurrentDateResult struct {
 }
 
+type SafeKite struct {
+	Safe     bool
+	Speed    float32
+	Beaufort int
+}
 
 // Displays
 func displayLocations(locations map[string]Location) string {

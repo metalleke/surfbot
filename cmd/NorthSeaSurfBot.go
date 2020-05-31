@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/go-telegram-bot-api/telegram-bot-api"
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
 	"github.com/patrickmn/go-cache"
 	"net/http"
 )
@@ -19,6 +19,7 @@ getdata <ID> <FROM> <TO>: returns the data of a specified buoy in a time range
 safekite: current wind value for safe kiting
 cefas <ID>: current cefas data
 cefasbuoys: list of all cefas buoys
+spuikom: spuikom information
 `
 
 //
@@ -40,11 +41,34 @@ type DataCache struct {
 	Remote *cache.Cache
 }
 
+//
+
+func (t NorthSeaSurfBot) getSafekite() SafeKite {
+	id := "BL7WVC"
+	data := currentDataForId(&t, id)
+	beaufort := MeterPerSecondToBeaufortScale(data.Value)
+
+	return SafeKite{
+		Safe:     safeToKite(beaufort),
+		Speed:    data.Value,
+		Beaufort: beaufort,
+	}
+}
+
+func (t NorthSeaSurfBot) getCefas() {
+
+}
+
 // HTTP API
 func (t NorthSeaSurfBot) Hello(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "text/plain")
 	w.Write([]byte("Hello, I am the North Sea surf bot."))
 }
 
+func (t NorthSeaSurfBot) Health(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	w.Write([]byte("{'status': 'ok'}"))
+}
 
 func (t NorthSeaSurfBot) TokenExpires(w http.ResponseWriter, r *http.Request) {
 	js, err := json.Marshal(&t.Config.currentToken.Expires)
@@ -54,6 +78,17 @@ func (t NorthSeaSurfBot) TokenExpires(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
+}
+
+func (t NorthSeaSurfBot) Safekite(w http.ResponseWriter, r *http.Request) {
+	js, err := json.Marshal(t.getSafekite())
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "text/plain")
 	w.Write(js)
 }
 
@@ -105,11 +140,10 @@ func (t NorthSeaSurfBot) processCommand(bot *NorthSeaSurfBot, input *tgbotapi.Me
 		//msg.Text = displayCurrentData(currentData(token))
 	case "safekite":
 		{
-			id := "BL7WVC"
-			data := currentDataForId(bot, id)
-			beaufort := MeterePerSecondToBeaufortScale(data.Value)
-			text := "Wind: " + fmt.Sprintf("%.2f", data.Value) + "m/s (" + DisplayBeaufort(beaufort) + ")\n"
-			if safeToKite(beaufort) {
+			safeKite := t.getSafekite()
+
+			text := "Wind: " + fmt.Sprintf("%.2f", safeKite.Speed) + "m/s (" + DisplayBeaufort(safeKite.Beaufort) + ")\n"
+			if safeKite.Safe {
 				text += "It is safe to kite"
 			} else {
 				text += "It is not safe to kite"
@@ -137,6 +171,10 @@ func (t NorthSeaSurfBot) processCommand(bot *NorthSeaSurfBot, input *tgbotapi.Me
 		return []tgbotapi.MessageConfig{
 			tgbotapi.NewMessage(input.Chat.ID, displayBuoys(getcurrent(bot))),
 		}
+	case "spuikom":
+		return []tgbotapi.MessageConfig{
+			tgbotapi.NewMessage(input.Chat.ID, displaySpuikom(bot.getSpuikom())),
+		}
 	default:
 		return []tgbotapi.MessageConfig{
 			tgbotapi.NewMessage(input.Chat.ID, "I don't know that command"),
@@ -144,4 +182,13 @@ func (t NorthSeaSurfBot) processCommand(bot *NorthSeaSurfBot, input *tgbotapi.Me
 	}
 
 	return nil
+}
+
+func displaySpuikom(spuikom Spuikom) string {
+	result := "Water temperatuur: " + spuikom.WaterTemperatuur + "\n" +
+		"Lucht temperatuur: " + spuikom.LuchtTemperatuur + "\n" +
+		"Windsnelheid: " + spuikom.Windsnelheid + "\n" +
+		"Windrichting: " + spuikom.Windrichting + "\n"
+
+	return result
 }
