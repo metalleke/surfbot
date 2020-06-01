@@ -2,10 +2,10 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
+	"time"
 )
 
 // Constants
@@ -28,10 +28,10 @@ type VlizDataSeries struct {
 }
 
 type Spuikom struct {
-	WaterTemperatuur string
-	LuchtTemperatuur string
-	Windsnelheid     string
-	Windrichting     string
+	WaterTemperatuur float32
+	LuchtTemperatuur float32
+	Windsnelheid     float32
+	Windrichting     float32
 }
 
 //
@@ -39,22 +39,26 @@ type Spuikom struct {
 func (t NorthSeaSurfBot) getSpuikom() Spuikom {
 	result := Spuikom{}
 
-	luchttemperatuur := querySpuikom("luchttemperatuur")
-	watertemperatuur := querySpuikom("watertemperatuurRAW")
-	windrichting := querySpuikom("windrichting")
-	windsnelheid := querySpuikom("windsnelheid")
+	luchttemperatuur := querySpuikom(t, "luchttemperatuur")
+	watertemperatuur := querySpuikom(t,"watertemperatuurRAW")
+	windrichting := querySpuikom(t, "windrichting")
+	windsnelheid := querySpuikom(t, "windsnelheid")
 
-	result.LuchtTemperatuur = fmt.Sprintf("%f %s", luchttemperatuur.Dataseries[0].Data[0][1], luchttemperatuur.Dataseries[0].Units)
-	result.WaterTemperatuur = fmt.Sprintf("%f %s", watertemperatuur.Dataseries[0].Data[0][1], watertemperatuur.Dataseries[0].Units)
-	result.Windrichting = fmt.Sprintf("%f %s", windrichting.Dataseries[0].Data[0][1], windrichting.Dataseries[0].Units)
-	result.Windsnelheid = fmt.Sprintf("%f %s", windsnelheid.Dataseries[0].Data[0][1], windsnelheid.Dataseries[0].Units)
-
-	fmt.Print(result)
+	result.LuchtTemperatuur = luchttemperatuur.Dataseries[0].Data[0][1]
+	result.WaterTemperatuur = watertemperatuur.Dataseries[0].Data[0][1]
+	result.Windrichting = windrichting.Dataseries[0].Data[0][1]
+	result.Windsnelheid = windsnelheid.Dataseries[0].Data[0][1]
 
 	return result
 }
 
-func querySpuikom(parameter string) VlizQueryResult {
+func querySpuikom(bot NorthSeaSurfBot, parameter string) VlizQueryResult {
+	cachedResult, found := bot.DataCache.Remote.Get("SPUIKOM" + parameter)
+
+	if found {
+		return cachedResult.(VlizQueryResult)
+	}
+
 	client := &http.Client{}
 	req, _ := http.NewRequest("GET", "http://www.vliz.be/spuikom/widgets/tableview2.php?output=data&period=day&locations[]=Spuikomboei&parameter="+parameter, nil)
 	resp, err := client.Do(req)
@@ -70,8 +74,10 @@ func querySpuikom(parameter string) VlizQueryResult {
 		log.Panic(err)
 	}
 
-	var queryResult VlizQueryResult
-	json.Unmarshal(body, &queryResult)
+	var result VlizQueryResult
+	json.Unmarshal(body, &result)
 
-	return queryResult
+	bot.DataCache.Remote.Set("SPUIKOM" + parameter, result, 5*time.Minute)
+
+	return result
 }

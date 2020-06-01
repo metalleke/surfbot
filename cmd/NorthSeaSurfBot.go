@@ -185,10 +185,8 @@ func (t NorthSeaSurfBot) processCommand(bot *NorthSeaSurfBot, input *tgbotapi.Me
 }
 
 func displaySpuikom(spuikom Spuikom) string {
-	result := "Water temperatuur: " + spuikom.WaterTemperatuur + "\n" +
-		"Lucht temperatuur: " + spuikom.LuchtTemperatuur + "\n" +
-		"Windsnelheid: " + spuikom.Windsnelheid + "\n" +
-		"Windrichting: " + spuikom.Windrichting + "\n"
-
-	return result
+	return "Water temperatuur: " + fmt.Sprintf("%.0f", spuikom.WaterTemperatuur) + " °C\n" +
+		"Lucht temperatuur: " + fmt.Sprintf("%.0f", spuikom.LuchtTemperatuur) + " °C\n" +
+		"Windsnelheid: " + fmt.Sprintf("%.2f", spuikom.Windsnelheid) + " m/s (" + fmt.Sprintf("%d", MeterPerSecondToBeaufortScale(spuikom.Windsnelheid)) + "bft)\n" +
+		"Windrichting: " + fmt.Sprintf("%.2f", spuikom.Windrichting) + " °\n"
 }
