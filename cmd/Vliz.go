@@ -44,10 +44,12 @@ func (t NorthSeaSurfBot) getSpuikom() Spuikom {
 	windrichting := querySpuikom(t, "windrichting")
 	windsnelheid := querySpuikom(t, "windsnelheid")
 
-	result.LuchtTemperatuur = luchttemperatuur.Dataseries[0].Data[0][1]
-	result.WaterTemperatuur = watertemperatuur.Dataseries[0].Data[0][1]
-	result.Windrichting = windrichting.Dataseries[0].Data[0][1]
-	result.Windsnelheid = windsnelheid.Dataseries[0].Data[0][1]
+	last := len(luchttemperatuur.Dataseries[0].Data) - 1
+
+	result.LuchtTemperatuur = luchttemperatuur.Dataseries[0].Data[last][1]
+	result.WaterTemperatuur = watertemperatuur.Dataseries[0].Data[last][1]
+	result.Windrichting = windrichting.Dataseries[0].Data[last][1]
+	result.Windsnelheid = windsnelheid.Dataseries[0].Data[last][1]
 
 	return result
 }
